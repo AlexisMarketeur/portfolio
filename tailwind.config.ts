@@ -22,6 +22,7 @@ const config = {
         background: "#F3F2F3",
         primary: "#000000",
         secondary: "#5E636A",
+        red: "#EC9688",
       },
       borderRadius: {
         lg: "var(--radius)",
