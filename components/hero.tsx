@@ -7,7 +7,7 @@ export default function Hero() {
     <header className="flex flex-col">
       <div className="flex flex-row">
         <div
-          className={`font-medium relative text-[280px] leading-[250px] tracking-tighter ${raleway.className}`}
+          className={`font-medium relative text-4xl xl:text-[280px] xl:leading-[250px] tracking-tighter ${raleway.className}`}
         >
           <div className="overflow-hidden">
             <p className="flex animate-slideUp1 opacity-0">
@@ -16,7 +16,6 @@ export default function Hero() {
                 style={{ height: "auto", width: "200px" }}
                 alt="glyph"
                 priority
-                // className="animate-spin-slow"
               />
               FREELANCE
             </p>
@@ -43,7 +42,7 @@ export default function Hero() {
         </div>
       </div>
       <div>
-        <h1 className="text-4xl animate-appears1 opacity-0">
+        <h1 className="text-4xl animate-appears1 opacity-0" id="methode">
           Je vous fais gagner de l'argent avec{" "}
           <span className="text-red">Google Ads</span>
         </h1>
