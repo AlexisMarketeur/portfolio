@@ -38,10 +38,23 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        slideUp: {
+          from: { transform: "translateY(100%)", opacity: "0" },
+          to: { transform: "translateY(0)", opacity: "1" },
+        },
+        appear: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "spin-slow": "spin 3s linear infinite",
+        appears: "appear 0.8s ease-in-out forwards",
+        slideUp1: "slideUp 0.8s ease-in-out 0.4s forwards",
+        slideUp2: "slideUp 0.8s ease-in-out 0.7s forwards",
+        slideUp3: "slideUp 0.8s ease-in-out 1.1s forwards",
       },
     },
   },

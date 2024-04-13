@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "text-primary",
-        link: "text-primary text-xl font-medium",
+        link: "text-primary font-medium",
         cta: "text-primary bg-accent hover:bg-accent/80",
         outline:
           "border border-input bg-background hover:bg-accent hover:text-accent-foreground",

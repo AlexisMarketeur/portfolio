@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between w-full items-baseline pt-2">
+    <nav className="flex justify-between w-full items-baseline pt-2 animate-appears opacity-0">
       <Button variant="link" size="default" asChild>
         <Link href="/">ma méthode</Link>
       </Button>

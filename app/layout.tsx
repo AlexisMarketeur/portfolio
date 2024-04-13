@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`bg-background flex justify-center ${poppins.className}`}
+        className={`bg-background flex justify-center selection:bg-primary selection:text-white ${poppins.className}`}
       >
         <div className="w-11/12">
           <Navbar />
