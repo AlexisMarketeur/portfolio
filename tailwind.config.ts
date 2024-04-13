@@ -39,7 +39,7 @@ const config = {
           to: { height: "0" },
         },
         slideUp: {
-          from: { transform: "translateY(100%)", opacity: "0" },
+          from: { transform: "translateY(100%)", opacity: "1" },
           to: { transform: "translateY(0)", opacity: "1" },
         },
         appear: {
@@ -52,9 +52,10 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
         "spin-slow": "spin 3s linear infinite",
         appears: "appear 0.8s ease-in-out forwards",
-        slideUp1: "slideUp 0.8s ease-in-out 0.4s forwards",
-        slideUp2: "slideUp 0.8s ease-in-out 0.7s forwards",
-        slideUp3: "slideUp 0.8s ease-in-out 1.1s forwards",
+        appears1: "appear 0.8s ease-in-out 1.8s forwards",
+        slideUp1: "slideUp 1s ease-in-out 0.2s forwards",
+        slideUp2: "slideUp 1s ease-in-out 0.6s forwards",
+        slideUp3: "slideUp 1s ease-in-out 1.0s forwards",
       },
     },
   },
