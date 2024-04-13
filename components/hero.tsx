@@ -34,7 +34,7 @@ export default function Hero() {
             muted
             loop
             playsInline={true}
-            className="rounded-full w-80 h-auto border-2"
+            className="rounded-full w-80 h-auto"
           >
             <source src="/memoji.webm" type="video/webm" />
             <source src="/memoji.mp4" type="video/mp4" />
