@@ -52,7 +52,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
         "spin-slow": "spin 3s linear infinite",
         appears: "appear 0.8s ease-in-out forwards",
-        appears1: "appear 0.3s ease-in-out 1.0s forwards",
+        appears1: "appear 0.3s ease-in-out 1.3s forwards",
         slideUp1: "slideUp 1s cubic-bezier(0.45, 0.64, 0.12, 1) 0s both",
         slideUp2: "slideUp 0.8s cubic-bezier(0.45, 0.64, 0.12, 1) 0.3s both",
         slideUp3: "slideUp 0.7s cubic-bezier(0.45, 0.64, 0.12, 1) 0.6s both",
