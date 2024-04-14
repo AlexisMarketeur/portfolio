@@ -19,10 +19,7 @@ export default function RootLayout({
       <body
         className={`bg-background flex justify-center selection:bg-primary selection:text-white ${poppins.className}`}
       >
-        <div className="w-11/12">
-          <Navbar />
-          {children}
-        </div>
+        <div className="w-11/12">{children}</div>
       </body>
     </html>
   );
