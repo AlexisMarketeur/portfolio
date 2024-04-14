@@ -1,6 +1,9 @@
 import Image from "next/image";
 import glyph from "../public/vector/glyph.svg";
 import { raleway } from "@/app/fonts";
+import { ArrowUpRight } from "lucide-react";
+import { Button } from "./ui/button";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -31,7 +34,7 @@ export default function Hero() {
                 PARTNER
               </p>
             </div>
-            <div className="absolute right-0 xl:right-10 top-0  animate-appears1 opacity-0">
+            <div className="hidden absolute right-0 md:block  xl:right-10 top-0 z-[-1] animate-appears1 opacity-0">
               <video
                 autoPlay
                 muted
@@ -47,11 +50,21 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between relative w-full">
-        <h1 className="text-lg pt-12 md:text-2xl lg:text-4xl animate-appears1 opacity-0">
+      <div className="w-full">
+        <h1 className="text-md sm:text-lg pt-6 md:text-xl lg:text-2xl xl:text-4xl animate-appears1 opacity-0">
           Je vous fais gagner de l'argent avec{" "}
           <span className="text-red">Google Ads</span>
         </h1>
+        <Button
+          className="mt-14 sm:mt-6 animate-appears1 opacity-0 md:hidden"
+          variant="cta"
+          size="lg"
+          asChild
+        >
+          <Link href="https://calendly.com" target="_blank">
+            discutons ! <ArrowUpRight />
+          </Link>
+        </Button>
       </div>
     </header>
   );

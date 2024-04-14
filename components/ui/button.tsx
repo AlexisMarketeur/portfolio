@@ -22,7 +22,7 @@ const buttonVariants = cva(
         default:
           "py-1 px-2 text-sm md:text-normal md:px-4 md:py-2 rounded-full",
         sm: "h-9 rounded-md px-3",
-        lg: "h-11 rounded-md px-8",
+        lg: "flex justify-between px-4 py-1 rounded-full w-full sm:w-max",
         icon: "h-10 w-10",
       },
     },
