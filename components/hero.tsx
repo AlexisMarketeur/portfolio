@@ -51,7 +51,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="w-full">
-        <h1 className="text-md sm:text-lg pt-6 md:text-xl lg:text-2xl xl:text-4xl animate-appears1 opacity-0">
+        <h1 className="text-md sm:text-lg pt-6 md:text-xl lg:text-2xl xl:text-4xl animate-appears1 md:animate-appears2 opacity-0">
           Je vous fais gagner de l'argent avec{" "}
           <span className="text-red">Google Ads</span>
         </h1>
