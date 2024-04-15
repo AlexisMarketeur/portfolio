@@ -56,7 +56,7 @@ export default function Hero() {
           <span className="text-red">Google Ads</span>
         </h1>
         <p
-          className={`text-xs sm:text-sm md:text-md lg:text-lg xl:text-2xl mt-4 md:mt-1 text-neutral-400 animate-appears2 md:animate-appears3 opacity-0`}
+          className={`text-xs sm:text-sm md:text-md lg:text-lg xl:text-2xl mt-4 md:mt-1 text-neutral-500 animate-appears2 md:animate-appears3 opacity-0`}
         >
           | Basé à Paris
         </p>
