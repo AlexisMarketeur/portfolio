@@ -15,18 +15,18 @@ const Navbar = () => {
       </div>
 
       <div className="flex gap-10 w-full md:w-min">
-        <div className="flex justify-between w-full">
+        <div className="flex flex-row-reverse justify-between w-full itesm-center">
           <Button variant="link" size="default" asChild>
             <Link
               href="https://www.linkedin.com/in/alexis-rodrigues-3a6349178"
               target="_blank"
             >
-              linkedin
+              <Linkedin />
             </Link>
           </Button>
           <Button variant="link" size="default" asChild>
             <Link href="" target="_blank">
-              read.cv
+              mon CV
             </Link>
           </Button>
         </div>
