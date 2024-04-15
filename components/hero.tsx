@@ -1,6 +1,6 @@
 import Image from "next/image";
 import glyph from "../public/vector/glyph.svg";
-import { raleway, caveat } from "@/app/fonts";
+import { raleway } from "@/app/fonts";
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "./ui/button";
 import Link from "next/link";
@@ -58,7 +58,7 @@ export default function Hero() {
         <p
           className={`text-xs sm:text-sm md:text-md lg:text-lg xl:text-2xl mt-4 md:mt-1 text-neutral-400 animate-appears2 md:animate-appears3 opacity-0`}
         >
-          Basé à Paris
+          | Basé à Paris
         </p>
         <Button
           className="mt-14 sm:mt-6 animate-appears3 opacity-0 md:hidden"
