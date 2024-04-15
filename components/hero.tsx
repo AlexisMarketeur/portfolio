@@ -1,7 +1,7 @@
 import Image from "next/image";
 import glyph from "../public/vector/glyph.svg";
 import { raleway } from "@/app/fonts";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowDown, ArrowUpRight } from "lucide-react";
 import { Button } from "./ui/button";
 import Link from "next/link";
 
@@ -68,6 +68,17 @@ export default function Hero() {
         >
           <Link href="https://calendly.com" target="_blank">
             discutons ! <ArrowUpRight />
+          </Link>
+        </Button>
+        <Button
+          className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-appears3 md:animate-appears4 opacity-0"
+          variant="secondaryCTA"
+          size="sm"
+          asChild
+        >
+          <Link href="#bioSection" className="flex gap-4">
+            en savoir plus
+            <ArrowDown />
           </Link>
         </Button>
       </div>

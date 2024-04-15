@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { poppins } from "./fonts";
 
 import "./globals.css";
-import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
   title: "Alexis Rodrigues | Marketing Digital Freelancer",
@@ -17,9 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`bg-background flex justify-center selection:bg-primary selection:text-white ${poppins.className}`}
+        className={`bg-background  selection:bg-primary selection:text-white ${poppins.className}`}
       >
-        <div className="w-11/12">{children}</div>
+        <div>{children}</div>
       </body>
     </html>
   );

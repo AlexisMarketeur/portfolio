@@ -25,7 +25,7 @@ const Navbar = () => {
             </Link>
           </Button>
           <Button variant="link" size="default" asChild>
-            <Link href="" target="_blank">
+            <Link href="/CV.pdf" target="_blank">
               mon CV
             </Link>
           </Button>
