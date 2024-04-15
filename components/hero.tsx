@@ -71,7 +71,7 @@ export default function Hero() {
           </Link>
         </Button>
         <Button
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-appears3 md:animate-appears4 opacity-0"
+          className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-appears4 opacity-0"
           variant="secondaryCTA"
           size="sm"
           asChild
