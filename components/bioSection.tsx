@@ -1,6 +1,7 @@
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import { raleway } from "@/app/fonts";
 
 export default function BioSection() {
   return (
@@ -12,9 +13,13 @@ export default function BioSection() {
           </h2>
           <div className="text-secondary text-md md:text-xl py-16 ">
             <p className="mb-14">
-              Avec plus de 2 ans d'expérience dans le Marketing Digital et dans
-              la gestion de campagnes publicitaires, je suis le partenaire idéal
-              pour maximiser votre retour sur investissement.
+              Avec plus de{" "}
+              <span className={`font-bold ${raleway.className}`}>
+                2 ans d'expérience dans le Marketing Digital et dans la gestion
+                de campagnes publicitaires
+              </span>
+              , je suis le partenaire idéal pour maximiser votre retour sur
+              investissement.
             </p>
             <p className="mb-14">
               Ma méthode ? Un service personnalisé, axé sur l'analyse des
@@ -29,7 +34,12 @@ export default function BioSection() {
               performantes pour booster votre visibilité et augmenter votre
               chiffre d'affaires.
             </p>
-            <p>Ma mission : Atteindre nos objectifs et dépasser vos attentes</p>
+            <p>
+              Ma mission :{" "}
+              <span className={`font-bold ${raleway.className}`}>
+                Atteindre nos objectifs et dépasser vos attentes
+              </span>
+            </p>
           </div>
           <div className="h-10 w-max flex flex-col justify-end">
             <Button variant="cta" size="lg" asChild>
