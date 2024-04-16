@@ -5,11 +5,11 @@ import { Button } from "./ui/button";
 export default function BioSection() {
   return (
     <section id="bioSection" className="bg-white w-full flex justify-center">
-      <div className="w-11/12 py-14 md:py-36">
+      <div className="w-11/12 py-14 md:py-36 flex flex-col items-center">
         <h2 className="font-bold md:font-normal text-lg md:text-2xl xl:text-4xl">
           Votre partenaire de croissance digital
         </h2>
-        <div className="text-secondary text-md md:text-xl py-14 lg:w-3/6">
+        <div className="text-secondary text-md md:text-xl py-14 sm:w-3/4 md:w-9/12 lg:w-3/6">
           <p className="mb-14">
             Avec plus de 2 ans d'expérience dans le Marketing Digital et dans la
             gestion de campagnes publicitaires, je suis le partenaire idéal pour
