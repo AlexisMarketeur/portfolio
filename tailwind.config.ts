@@ -21,7 +21,7 @@ const config = {
       colors: {
         background: "#F3F2F3",
         primary: "#000000",
-        secondary: "#5E636A",
+        secondary: "#5e636a",
         red: "#EC9688",
       },
       borderRadius: {

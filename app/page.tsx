@@ -13,6 +13,7 @@ export default function Home() {
       </div>
       <main className="w-full">
         <BioSection />
+        <div className="mt-24">1</div>
       </main>
     </div>
   );
