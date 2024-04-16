@@ -6,9 +6,9 @@ import { raleway } from "@/app/fonts";
 export default function BioSection() {
   return (
     <section id="bioSection" className="bg-white w-full flex justify-center">
-      <div className="w-11/12 py-14 md:py-36 flex flex-col items-center justify-center">
+      <div className="w-11/12 py-14 md:py-32 flex flex-col items-center justify-center">
         <div className="md:w-3/4 xl:w-2/4">
-          <h2 className="font-bold md:font-normal text-lg md:text-2xl xl:text-4xl w-max">
+          <h2 className="font-bold md:font-normal text-md sm:text-lg md:text-2xl xl:text-4xl w-max">
             Votre partenaire de croissance digital
           </h2>
           <div className="text-secondary text-md md:text-xl py-16 ">
