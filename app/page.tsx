@@ -1,5 +1,4 @@
 import { Bento } from "@/components/bento";
-import BioSection from "@/components/bioSection";
 import Hero from "@/components/hero";
 import Method from "@/components/methode";
 import Navbar from "@/components/navbar";
@@ -17,7 +16,7 @@ export default function Home() {
       <main className="w-full">
         <StatsSection />
         <Method />
-        <div className="mt-32">
+        <div className="mt-64">
           <Bento />
         </div>
       </main>

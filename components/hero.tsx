@@ -76,7 +76,7 @@ export default function Hero() {
           size="sm"
           asChild
         >
-          <Link href="#bioSection" className="flex gap-4">
+          <Link href="#stats" className="flex gap-4">
             en savoir plus
             <ArrowDown />
           </Link>

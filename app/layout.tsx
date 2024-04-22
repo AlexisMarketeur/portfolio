@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { poppins } from "./fonts";
+import { inter } from "./fonts";
 
 import "./globals.css";
 
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`bg-background  selection:bg-primary selection:text-white ${poppins.className}`}
+        className={`bg-background  selection:bg-primary selection:text-white ${inter.className}`}
       >
         <div>{children}</div>
       </body>

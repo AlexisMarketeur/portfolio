@@ -1,5 +1,4 @@
-import { Raleway, Poppins, Inter } from "next/font/google";
+import { Raleway, Inter } from "next/font/google";
 
 export const raleway = Raleway({ subsets: ["latin"] });
-export const poppins = Inter({ subsets: ["latin"] });
-export const inter = Inter({ subsets: ["latin"] });
+export const inter = Inter({ weight: "400", subsets: ["latin"] });

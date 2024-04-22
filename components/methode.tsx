@@ -14,7 +14,7 @@ export default function Method() {
   return (
     <section
       id="methode"
-      className="flex justify-center w-full py-14 md:py-24 "
+      className="flex justify-center w-full py-14 md:py-24 mt-32"
     >
       <div className="flex flex-col w-12/12 md:w-9/12 bg-white border-2 border-b-4 border-black rounded-lg">
         <div className="p-8 lg:p-12">
