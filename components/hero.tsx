@@ -12,7 +12,7 @@ export default function Hero() {
         <div
           className={`font-medium tracking-tighter leading-[0.84] ${raleway.className} w-max whitespace-nowrap`}
         >
-          <div className="overflow-hidden w-full">
+          <div className="w-full overflow-hidden">
             <p className="flex animate-slideUp1 opacity-0 text-[14vw]">
               <Image
                 src={glyph}
@@ -23,7 +23,7 @@ export default function Hero() {
               FREELANCE
             </p>
           </div>
-          <div className="overflow-hidden w-full">
+          <div className="w-full overflow-hidden">
             <p className="flex animate-slideUp2 opacity-0  text-[14vw]">
               GOOGLE ADS
             </p>
@@ -51,7 +51,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="w-full">
-        <h1 className="text-md sm:text-lg pt-6 md:text-xl lg:text-2xl xl:text-4xl animate-appears1 md:animate-appears2 opacity-0">
+        <h1 className="pt-6 opacity-0 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-4xl animate-appears1 md:animate-appears2">
           Je vous fais gagner de l'argent avec{" "}
           <span className="text-red">Google Ads</span>
         </h1>
@@ -61,7 +61,7 @@ export default function Hero() {
           | Basé à Paris
         </p>
         <Button
-          className="mt-14 sm:mt-6 animate-appears3 opacity-0 md:hidden"
+          className="opacity-0 mt-14 sm:mt-6 animate-appears3 md:hidden"
           variant="cta"
           size="lg"
           asChild
@@ -71,7 +71,7 @@ export default function Hero() {
           </Link>
         </Button>
         <Button
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-appears4 opacity-0"
+          className="absolute -translate-x-1/2 opacity-0 bottom-10 left-1/2 animate-appears4"
           variant="secondaryCTA"
           size="sm"
           asChild

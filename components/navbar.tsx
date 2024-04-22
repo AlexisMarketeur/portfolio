@@ -4,7 +4,7 @@ import { ArrowUpRight, Linkedin } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between w-full items-center md:mt-6 pt-2 animate-appears opacity-0 h-10">
+    <nav className="flex items-center justify-between w-full h-10 pt-2 opacity-0 md:mt-6 animate-appears">
       <div className="hidden md:flex">
         <Button variant="link" size="default" asChild>
           <Link href="#methode">ma méthode</Link>
@@ -14,8 +14,8 @@ const Navbar = () => {
         </Button>
       </div>
 
-      <div className="flex gap-10 w-full md:w-min">
-        <div className="flex flex-row-reverse justify-between w-full itesm-center">
+      <div className="flex w-full gap-10 md:w-min">
+        <div className="flex flex-row-reverse items-center justify-between w-full">
           <Button variant="link" size="default" asChild>
             <Link
               href="https://www.linkedin.com/in/alexis-rodrigues-3a6349178"

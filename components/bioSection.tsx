@@ -5,13 +5,13 @@ import { raleway } from "@/app/fonts";
 
 export default function BioSection() {
   return (
-    <section id="bioSection" className="bg-white w-full flex justify-center">
-      <div className="w-11/12 py-14 md:py-32 flex flex-col items-center justify-center">
+    <section id="bioSection" className="flex justify-center w-full bg-white">
+      <article className="flex flex-col items-center justify-center w-11/12 py-14 md:py-32">
         <div className="md:w-3/4 xl:w-2/4">
-          <h2 className="font-bold md:font-normal text-md sm:text-lg md:text-2xl xl:text-4xl w-max">
+          <h2 className="font-normal text-3xl md:text-5xl">
             Votre partenaire de croissance digital
           </h2>
-          <div className="text-secondary text-md md:text-xl py-16 ">
+          <div className="py-16 text-secondary text-md md:text-xl ">
             <p className="mb-14">
               Avec plus de{" "}
               <span className={`font-bold ${raleway.className}`}>
@@ -41,7 +41,7 @@ export default function BioSection() {
               </span>
             </p>
           </div>
-          <div className="h-10 w-max flex flex-col justify-end">
+          <div className="flex flex-col justify-end h-10 w-full">
             <Button variant="cta" size="lg" asChild>
               <Link href="https://calendly.com" target="_blank">
                 discutons ! <ArrowUpRight />
@@ -49,7 +49,7 @@ export default function BioSection() {
             </Button>
           </div>
         </div>
-      </div>
+      </article>
     </section>
   );
 }
