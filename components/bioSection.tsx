@@ -8,7 +8,7 @@ export default function BioSection() {
     <section id="bioSection" className="flex justify-center w-full bg-white">
       <article className="flex flex-col items-center justify-center w-11/12 py-14 md:py-32">
         <div className="md:w-3/4 xl:w-2/4">
-          <h2 className="font-normal text-3xl md:text-5xl">
+          <h2 className="font-normal text-3xl md:text-4xl">
             Votre partenaire de croissance digital
           </h2>
           <div className="py-16 text-secondary text-md md:text-xl ">

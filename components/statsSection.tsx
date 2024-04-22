@@ -6,7 +6,7 @@ export default function StatsSection() {
     <section className="flex justify-center w-full py-14 md:py-24">
       <article className="flex flex-col w-11/12 gap-20 md:gap-32 md:w-9/12">
         <div>
-          <h2 className="font-normal text-3xl md:text-5xl">
+          <h2 className="font-normal text-3xl md:text-4xl">
             Boostez votre visibilité en ligne avec Google Ads
           </h2>
         </div>
