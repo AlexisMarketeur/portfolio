@@ -19,7 +19,7 @@ export default function Method() {
       <div className="flex flex-col w-12/12 md:w-9/12 bg-white border-2 border-b-4 border-black rounded-lg">
         <div className="p-8 lg:p-12">
           <div className="w-full flex justify-between items-center h-10">
-            <h2 className="font-normal text-2xl md:text-4xl">
+            <h2 className="font-bold text-2xl md:text-6xl uppercase">
               Ma méthode de travail
             </h2>
             <Button
