@@ -15,7 +15,6 @@ export default function Home() {
         </div>
       </div>
       <main className="w-full">
-        <BioSection />
         <StatsSection />
         <Method />
         <div className="mt-32">
