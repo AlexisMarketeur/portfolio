@@ -16,7 +16,7 @@ export default function StatsSection() {
         <div className="flex w-full flex-col justify-between gap-24 md:flex-row">
           <div className="flex min-h-52 w-full flex-col lg:w-2/12">
             <div className="mb-6">
-              <UserCheck className="from-copper-100 to-copper-300 h-16 w-16 rotate-6 rounded-md border-2 border-b-4 border-black bg-gradient-to-r p-3" />
+              <UserCheck className="h-16 w-16 rotate-6 rounded-md border-2 border-b-4 border-black bg-gradient-to-r from-green to-blue p-3" />
             </div>
             <h3 className={`${inter.className} pb-4 text-8xl font-bold `}>
               90%
@@ -28,7 +28,7 @@ export default function StatsSection() {
           </div>
           <div className="flex min-h-52 w-full flex-col lg:w-2/12">
             <div className="mb-6">
-              <Search className="from-copper-100 to-copper-300 h-16 w-16 rotate-[-4deg] rounded-md border-2 border-b-4 border-black bg-gradient-to-l p-3 " />
+              <Search className="h-16 w-16 rotate-[-4deg] rounded-md border-2 border-b-4 border-black bg-gradient-to-l from-green to-blue p-3 " />
             </div>
             <h3 className={`${inter.className} pb-4 text-8xl font-bold `}>
               63%
@@ -41,7 +41,7 @@ export default function StatsSection() {
           </div>
           <div className="flex min-h-52 w-full flex-col lg:w-2/12">
             <div className="mb-6">
-              <TrendingUp className="from-copper-100 to-copper-300 h-16 w-16 rotate-3 rounded-md border-2 border-b-4 border-black bg-gradient-to-r p-3 " />
+              <TrendingUp className="h-16 w-16 rotate-3 rounded-md border-2 border-b-4 border-black bg-gradient-to-r from-green to-blue p-3 " />
             </div>
             <h3 className={`${inter.className} pb-4 text-8xl font-bold `}>
               7%

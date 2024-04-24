@@ -24,8 +24,7 @@ const config = {
         green: "#dcfce7",
         blue: "#dbeafe",
         red: "#fee2e2",
-        brown: "#edeced",
-        brownDark: "#afabaf",
+
         concrete: {
           "50": "#f3f2f3",
           "100": "#edeced",
