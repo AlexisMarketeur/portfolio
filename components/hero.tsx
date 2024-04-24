@@ -52,8 +52,7 @@ export default function Hero() {
       </div>
       <div className="w-full">
         <h1 className="pt-6 opacity-0 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-4xl animate-appears1 md:animate-appears2">
-          Je vous fais gagner de l'argent avec{" "}
-          <span className="text-red">Google Ads</span>
+          Je vous fais gagner de l'argent avec Google Ads
         </h1>
         <p
           className={`text-xs sm:text-sm md:text-md lg:text-lg xl:text-2xl mt-4 md:mt-1 text-neutral-500 animate-appears2 md:animate-appears3 opacity-0`}
@@ -71,7 +70,7 @@ export default function Hero() {
           </Link>
         </Button>
         <Button
-          className="absolute -translate-x-1/2 opacity-0 bottom-10 left-1/2 animate-appears4"
+          className="absolute -translate-x-1/2 opacity-0 bottom-10 left-1/2 animate-appears4 "
           variant="secondaryCTA"
           size="sm"
           asChild

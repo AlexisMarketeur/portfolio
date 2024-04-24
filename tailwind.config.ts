@@ -19,9 +19,26 @@ const config = {
     },
     extend: {
       colors: {
-        background: "#F3F2F3",
         primary: "#000000",
         secondary: "#5e636a",
+        green: "#dcfce7",
+        blue: "#dbeafe",
+        red: "#fee2e2",
+        brown: "#edeced",
+        brownDark: "#afabaf",
+        concrete: {
+          "50": "#f3f2f3",
+          "100": "#edeced",
+          "200": "#e0dde0",
+          "300": "#cac6ca",
+          "400": "#b0aab0",
+          "500": "#9c959c",
+          "600": "#8c848b",
+          "700": "#7e777d",
+          "800": "#696468",
+          "900": "#565255",
+          "950": "#373437",
+        },
       },
       borderRadius: {
         lg: "20px",

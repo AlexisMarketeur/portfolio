@@ -11,16 +11,18 @@ const buttonVariants = cva(
       variant: {
         default: "text-primary",
         link: "text-primary font-bold hover:underline underline-offset-4",
-        cta: "text-primary font-bold border-2 border-b-8 border-primary hover:border-b-4",
+        cta: "text-primary font-bold border-2 border-b-8 border-primary hover:border-b-4 transform duration-150 transition-all bg-gradient-to-r from-concrete-100 to-concrete-300 hover:from-concrete-300 hover:to-concrete-100",
         secondaryCTA:
-          "text-primary font-bold border-2 border-b-4 border-primary hover:border-b-2",
+          "text-primary font-bold border-2 border-b-4 border-primary hover:border-b-2 transform duration-150 transition-all bg-gradient-to-l from-concrete-100 to-concrete-300 hover:from-concrete-300 hover:to-concrete-100",
+        empty: "",
       },
       size: {
         default:
           "py-1 px-2 text-sm md:text-normal md:px-4 md:py-2 rounded-full",
-        sm: "h-9 rounded-full px-3 text-sm md:text-normal",
+        sm: "h-10 rounded-full px-4 text-sm md:text-normal",
         lg: "flex justify-between px-4 py-1 rounded-full w-full sm:w-max",
         icon: "h-12 w-12 rounded-full",
+        empty: "",
       },
     },
     defaultVariants: {
