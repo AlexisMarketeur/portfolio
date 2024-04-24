@@ -8,6 +8,7 @@ import { data } from "@/public/data.json";
 
 export default function Method() {
   const [currentValue, setCurrentValue] = useState<number | null>(0);
+
   let paragraphContent =
     currentValue !== null ? data.paragraphs[currentValue] : "";
   let titleContent = currentValue !== null ? data.titles[currentValue] : "";
@@ -15,12 +16,12 @@ export default function Method() {
   return (
     <section
       id="methode"
-      className="flex justify-center w-full py-14 md:py-24 mt-32"
+      className="mt-32 flex w-full justify-center py-14 md:py-24"
     >
-      <div className="flex flex-col w-12/12 md:w-9/12 lg:bg-concrete-200 border-2 border-b-4 border-black rounded-lg">
+      <div className="w-12/12 lg:bg-copper-300 flex flex-col rounded-lg border-2 border-b-4 border-black md:w-9/12">
         <div className="p-8 lg:p-12">
-          <div className="w-full flex justify-between items-center h-10">
-            <h2 className="font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl uppercase">
+          <div className="flex h-10 w-full items-center justify-between">
+            <h2 className="text-2xl font-bold uppercase md:text-4xl lg:text-5xl xl:text-6xl">
               Ma méthode de travail
             </h2>
             <Button
@@ -34,8 +35,8 @@ export default function Method() {
               </Link>
             </Button>
           </div>
-          <div className="mt-14 lg:mt-20 flex flex-col lg:flex-row  w-full lg:gap-24 items-center">
-            <div className="flex lg:flex-col items-center justify-center gap-4 md:gap-8 w-full lg:w-2/12 ">
+          <div className="mt-14 flex w-full flex-col items-center  lg:mt-20 lg:flex-row lg:gap-24">
+            <div className="flex w-full items-center justify-center gap-4 md:gap-8 lg:w-2/12 lg:flex-col ">
               <Button
                 variant="secondaryCTA"
                 size="sm"
@@ -64,13 +65,13 @@ export default function Method() {
                 3
               </Button>
             </div>
-            <article className="w-full lg:border-2 lg:border-b-4 border-black  lg:bg-concrete-100 rounded-lg lg:p-8 h-auto min-h-60 lg:min-h-96 flex flex-col justify-start my-14 lg:my-0 lg:justify-center items-center">
+            <article className="lg:bg-copper-200 my-14 flex h-auto  min-h-60 w-full flex-col items-center justify-start rounded-lg border-black lg:my-0 lg:min-h-96 lg:justify-center lg:border-2 lg:border-b-4 lg:p-8">
               <div className="w-full lg:w-9/12">
-                <h3 className="font-bold text-md md:text-xl mb-10 md:mb-6 uppercase">
+                <h3 className="text-md mb-10 font-bold uppercase md:mb-6 md:text-xl">
                   {titleContent}
                 </h3>
               </div>
-              <p className="w-full lg:w-9/12 leading-relaxed text-black">
+              <p className="w-full leading-relaxed text-black lg:w-9/12">
                 {paragraphContent}
               </p>
             </article>

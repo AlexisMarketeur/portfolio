@@ -7,13 +7,13 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <header className="flex flex-col mt-20 md:mt-0">
+    <header className="mt-20 flex flex-col md:mt-0">
       <div className="flex flex-row">
         <div
-          className={`font-medium tracking-tighter leading-[0.84] ${raleway.className} w-max whitespace-nowrap`}
+          className={`font-medium leading-[0.84] tracking-tighter ${raleway.className} w-max whitespace-nowrap`}
         >
           <div className="w-full overflow-hidden">
-            <p className="flex animate-slideUp1 opacity-0 text-[14vw]">
+            <p className="flex animate-slideUp1 text-[14vw] opacity-0">
               <Image
                 src={glyph}
                 alt="glyph"
@@ -24,23 +24,23 @@ export default function Hero() {
             </p>
           </div>
           <div className="w-full overflow-hidden">
-            <p className="flex animate-slideUp2 opacity-0  text-[14vw]">
+            <p className="flex animate-slideUp2 text-[14vw]  opacity-0">
               GOOGLE ADS
             </p>
           </div>
           <div className="relative w-full">
             <div className="overflow-hidden">
-              <p className="flex animate-slideUp3 opacity-0 text-[14vw]">
+              <p className="flex animate-slideUp3 text-[14vw] opacity-0">
                 PARTNER
               </p>
             </div>
-            <div className="hidden absolute right-0 md:block  xl:right-10 top-0 z-[-1] animate-appears1 opacity-0">
+            <div className="absolute right-0 top-0 z-[-1]  hidden animate-appears1 opacity-0 md:block xl:right-10">
               <video
                 autoPlay
                 muted
                 loop
                 playsInline={true}
-                className="rounded-full w-[25vw] max-w-[350px] h-auto"
+                className="h-auto w-[25vw] max-w-[350px] rounded-full"
               >
                 <source src="/memoji.webm" type="video/webm" />
                 <source src="/memoji.mp4" type="video/mp4" />
@@ -51,16 +51,16 @@ export default function Hero() {
         </div>
       </div>
       <div className="w-full">
-        <h1 className="pt-6 opacity-0 text-md sm:text-lg md:text-xl lg:text-2xl xl:text-4xl animate-appears1 md:animate-appears2">
+        <h1 className="text-md animate-appears1 pt-6 opacity-0 sm:text-lg md:animate-appears2 md:text-xl lg:text-2xl xl:text-4xl">
           Je vous fais gagner de l'argent avec Google Ads
         </h1>
         <p
-          className={`text-xs sm:text-sm md:text-md lg:text-lg xl:text-2xl mt-4 md:mt-1 text-neutral-500 animate-appears2 md:animate-appears3 opacity-0`}
+          className={`md:text-md mt-4 animate-appears2 text-xs text-neutral-500 opacity-0 sm:text-sm md:mt-1 md:animate-appears3 lg:text-lg xl:text-2xl`}
         >
           | Basé à Paris
         </p>
         <Button
-          className="opacity-0 mt-14 sm:mt-6 animate-appears3 md:hidden"
+          className="mt-14 animate-appears3 opacity-0 sm:mt-6 md:hidden"
           variant="cta"
           size="lg"
           asChild
@@ -70,7 +70,7 @@ export default function Hero() {
           </Link>
         </Button>
         <Button
-          className="absolute -translate-x-1/2 opacity-0 bottom-10 left-1/2 animate-appears4 "
+          className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-appears4 opacity-0 "
           variant="secondaryCTA"
           size="sm"
           asChild

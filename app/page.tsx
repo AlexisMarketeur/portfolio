@@ -6,8 +6,8 @@ import StatsSection from "@/components/statsSection";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center w-full">
-      <div className="w-11/12 h-screen">
+    <div className="flex w-full flex-col items-center">
+      <div className="h-screen w-11/12">
         <Navbar />
         <div className="mt-6">
           <Hero />
@@ -23,5 +23,3 @@ export default function Home() {
     </div>
   );
 }
-
-// rajouter un etape 1 2 3
