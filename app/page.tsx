@@ -9,6 +9,7 @@ import { AboutMe } from "@/components/aboutMe";
 import { Scroller } from "@/components/scroller";
 import { FAQ } from "@/components/faq";
 import FinalCTA from "@/components/finalCta";
+import MethodeStatic from "@/components/methodeStatic";
 
 export default function Home() {
   return (
@@ -21,12 +22,13 @@ export default function Home() {
       </div>
       <main className="flex w-full flex-col gap-28 md:gap-80">
         <StatsSection />
-        <Method />
+        <MethodeStatic />
+        {/* <Method /> */}
         <BentoGridSecondDemo />
         <Testimony />
         <AboutMe />
         <Scroller />
-        <div className="bg-backgroundSecondary flex flex-col gap-28 py-32 md:gap-80">
+        <div className="flex flex-col gap-28 bg-backgroundSecondary py-32 md:gap-80">
           <div className="flex flex-col gap-20">
             <SoftSkills />
             <FAQ />

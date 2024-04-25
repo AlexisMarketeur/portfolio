@@ -1,9 +1,9 @@
 import { Check } from "lucide-react";
 
 export const SoftSkills = () => (
-  <div className="bg-backgroundSecondary flex w-full justify-center">
+  <div className="flex w-full justify-center bg-backgroundSecondary">
     <div className="w-11/12 md:w-9/12">
-      <div className="flex flex-col items-start gap-4 ">
+      <div className="flex w-full flex-col items-start gap-4 ">
         <h2 className="text-3xl font-bold uppercase md:text-8xl">
           SOFT SKILLS
         </h2>

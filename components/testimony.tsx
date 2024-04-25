@@ -4,12 +4,12 @@ import { cn } from "@/utils/cn";
 
 export function Testimony() {
   return (
-    <section className="bg-backgroundSecondary flex w-full justify-center py-32">
+    <section className="flex w-full justify-center bg-backgroundSecondary py-32">
       <div className="flex w-11/12 flex-col items-center">
         <h2 className="text-3xl font-bold uppercase md:text-8xl">
           ILS ME FONT CONFIANCE
         </h2>
-        <article className="mt-8 flex w-full items-center justify-center text-sm md:w-6/12 md:pt-32 md:text-xl">
+        <article className="mt-16 flex w-full items-center justify-center text-sm md:mt-8 md:w-6/12 md:pt-32 md:text-xl">
           <CardStack items={CARDS} />
         </article>
       </div>
@@ -17,7 +17,6 @@ export function Testimony() {
   );
 }
 
-// Small utility to highlight the content of specific section of a testimonial content
 export const Highlight = ({
   children,
   className,

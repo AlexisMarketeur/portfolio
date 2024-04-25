@@ -13,7 +13,7 @@ const buttonVariants = cva(
         link: "text-primary font-bold hover:underline underline-offset-4",
         cta: "text-primary font-bold border-2 border-b-8 border-primary hover:border-b-4 transform duration-150 transition-all bg-gradient-to-r from-blue to-green hover:from-green hover:to-blue",
         giantCTA:
-          "text-primary font-bold border-4 border-b-[16px] border-primary  hover:border-b-4 transform duration-150 transition-all bg-gradient-to-r from-blue to-green hover:from-green hover:to-blue",
+          "text-primary font-bold border-4 border-b-[16px] border-primary  hover:border-b-4 transform duration-150 transition-all hover:bg-gradient-to-r hover:from-green hover:to-blue",
         secondaryCTA:
           "text-primary font-bold border-2 border-b-4 border-primary hover:border-b-2 transform duration-150 transition-all bg-gradient-to-l from-blue to-green hover:from-green hover:to-blue",
         empty: "",
