@@ -1,13 +1,13 @@
 export default function MethodeStatic() {
   return (
     <section className="flex w-full justify-center">
-      <div className="flex w-11/12 flex-col md:w-9/12">
-        <h2 className="text-left text-3xl font-bold uppercase md:text-8xl">
+      <div className="flex w-11/12 flex-col gap-40 md:w-9/12 lg:gap-20">
+        <h2 className="mb-10 text-left text-3xl font-bold uppercase md:text-8xl">
           ma méthode de travail
         </h2>
-        <div className="flex w-full items-center justify-around">
-          <p className="text-[18vw] font-bold">1</p>
-          <div className="flex w-1/2 flex-col gap-12">
+        <div className="flex w-full  flex-col items-start  justify-around lg:flex-row lg:items-center">
+          <p className="text-[168px] font-bold lg:text-[18vw]">1</p>
+          <div className="flex w-full flex-col gap-12 lg:w-1/2">
             <h3 className="text-3xl uppercase">
               FONDATIONS STRATÉGIQUES : DÉFINIR UNE APPROCHE HOLISTIQUE
             </h3>
@@ -21,9 +21,9 @@ export default function MethodeStatic() {
             </p>
           </div>
         </div>
-        <div className="flex w-full flex-row-reverse items-center justify-around">
-          <p className="text-[18vw] font-bold">2</p>
-          <div className="flex w-1/2 flex-col gap-12">
+        <div className="flex w-full flex-col items-start  justify-around lg:flex-row-reverse lg:items-center">
+          <p className="text-[168px] font-bold lg:text-[18vw]">2</p>
+          <div className="flex w-full flex-col gap-12 lg:w-1/2">
             <h3 className="text-3xl uppercase">
               Optimisation Axée sur les Données : Maximiser la Pertinence
             </h3>
@@ -38,9 +38,9 @@ export default function MethodeStatic() {
             </p>
           </div>
         </div>
-        <div className="flex w-full items-center justify-around">
-          <p className="text-[18vw] font-bold">3</p>
-          <div className="flex w-1/2 flex-col gap-12">
+        <div className="flex w-full flex-col items-start  justify-around lg:flex-row lg:items-center">
+          <p className="text-[168px] font-bold lg:text-[18vw]">3</p>
+          <div className="flex w-full flex-col gap-12 lg:w-1/2">
             <h3 className="text-3xl uppercase">
               Culture d'Amélioration Continue : Tirer des Leçons Post-Campagne
             </h3>
