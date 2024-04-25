@@ -10,7 +10,7 @@ export const SoftSkills = () => (
 
         <div className="flex w-full flex-col gap-10 pt-12">
           <div className="grid grid-cols-2 items-start gap-10 lg:grid-cols-3">
-            <div className="flex w-full flex-row items-start gap-6">
+            <div className="flex w-full flex-col items-start gap-6 sm:flex-row">
               <Check className="mt-2 h-4 w-4 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Easy to use</p>
@@ -19,7 +19,7 @@ export const SoftSkills = () => (
                 </p>
               </div>
             </div>
-            <div className="flex flex-row items-start gap-6">
+            <div className="flex flex-col items-start gap-6 sm:flex-row">
               <Check className="mt-2 h-4 w-4 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Fast and reliable</p>
@@ -28,7 +28,7 @@ export const SoftSkills = () => (
                 </p>
               </div>
             </div>
-            <div className="flex flex-row items-start gap-6">
+            <div className="flex flex-col items-start gap-6 sm:flex-row">
               <Check className="mt-2 h-4 w-4 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Beautiful and modern</p>
@@ -37,7 +37,7 @@ export const SoftSkills = () => (
                 </p>
               </div>
             </div>
-            <div className="flex w-full flex-row items-start gap-6">
+            <div className="flex w-full flex-col items-start gap-6 sm:flex-row">
               <Check className="mt-2 h-4 w-4 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Easy to use</p>
@@ -46,7 +46,7 @@ export const SoftSkills = () => (
                 </p>
               </div>
             </div>
-            <div className="flex flex-row items-start gap-6">
+            <div className="flex flex-col items-start gap-6 sm:flex-row">
               <Check className="mt-2 h-4 w-4 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Fast and reliable</p>
@@ -55,7 +55,7 @@ export const SoftSkills = () => (
                 </p>
               </div>
             </div>
-            <div className="flex flex-row items-start gap-6">
+            <div className="flex flex-col items-start gap-6 sm:flex-row">
               <Check className="mt-2 h-4 w-4 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Beautiful and modern</p>
