@@ -16,7 +16,6 @@ const buttonVariants = cva(
           "text-primary font-bold border-4 border-b-[16px] border-primary  hover:border-b-4 transform duration-150 transition-all hover:bg-gradient-to-r hover:from-green hover:to-blue",
         secondaryCTA:
           "text-primary font-bold border-2 border-b-4 border-primary hover:border-b-2 transform duration-150 transition-all bg-gradient-to-l from-blue to-green hover:from-green hover:to-blue",
-        empty: "",
       },
       size: {
         default:

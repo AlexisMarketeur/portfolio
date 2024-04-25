@@ -4,7 +4,7 @@ export const SoftSkills = () => (
   <div className="flex w-full justify-center bg-backgroundSecondary">
     <div className="w-11/12 md:w-9/12">
       <div className="flex w-full flex-col items-start gap-4 ">
-        <h2 className="text-3xl font-bold uppercase md:text-8xl">
+        <h2 className="text-left text-3xl font-bold uppercase md:text-6xl lg:text-7xl xl:text-8xl">
           SOFT SKILLS
         </h2>
 

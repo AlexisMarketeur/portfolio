@@ -10,7 +10,7 @@ export function Scroller() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-3xl font-bold uppercase md:text-8xl">
+            <h1 className="text-center text-3xl font-bold uppercase md:mb-10 md:text-6xl lg:text-7xl xl:text-8xl">
               MES CERTIFICATIONS
             </h1>
           </>

@@ -6,11 +6,11 @@ export default function StatsSection() {
     <section id="stats" className="flex w-full justify-center pt-36">
       <article className="flex w-11/12 flex-col gap-20 md:w-9/12 md:gap-48">
         <div>
-          <h2 className="text-left text-3xl font-bold uppercase md:text-8xl">
+          <h2 className="text-left text-3xl font-bold uppercase md:text-6xl lg:text-7xl xl:text-8xl">
             Boostez votre visibilité en ligne avec Google Ads
           </h2>
         </div>
-        <div className="flex w-full flex-col justify-between gap-24 md:flex-row">
+        <div className="flex w-full flex-col justify-between gap-24 lg:flex-row">
           <div className="flex min-h-52 w-full flex-col lg:w-2/12">
             <div className="mb-6">
               <UserCheck className="h-16 w-16 rotate-6 rounded-md border-2 border-b-4 border-black bg-gradient-to-r from-green to-blue p-3" />
