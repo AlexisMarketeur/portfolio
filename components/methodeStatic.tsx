@@ -7,8 +7,8 @@ export default function MethodeStatic() {
         </h2>
         <div className="flex w-full  flex-col items-start  justify-around lg:flex-row lg:items-center">
           <p className="text-[168px] font-bold lg:text-[18vw]">1</p>
-          <div className="flex w-full flex-col gap-12 lg:w-1/2">
-            <h3 className="text-3xl uppercase">
+          <div className="flex w-full flex-col gap-6 md:gap-12 lg:w-1/2">
+            <h3 className="text-xl uppercase md:text-3xl">
               FONDATIONS STRATÉGIQUES : DÉFINIR UNE APPROCHE HOLISTIQUE
             </h3>
             <p className="text-neutral-500">
@@ -21,10 +21,10 @@ export default function MethodeStatic() {
             </p>
           </div>
         </div>
-        <div className="flex w-full flex-col items-start  justify-around lg:flex-row-reverse lg:items-center">
+        <div className="flex w-full flex-col items-end  justify-around lg:flex-row-reverse lg:items-center">
           <p className="text-[168px] font-bold lg:text-[18vw]">2</p>
-          <div className="flex w-full flex-col gap-12 lg:w-1/2">
-            <h3 className="text-3xl uppercase">
+          <div className="flex w-full flex-col gap-6 md:gap-12 lg:w-1/2">
+            <h3 className="text-xl uppercase md:text-3xl">
               Optimisation Axée sur les Données : Maximiser la Pertinence
             </h3>
             <p className="text-neutral-500">
@@ -40,8 +40,8 @@ export default function MethodeStatic() {
         </div>
         <div className="flex w-full flex-col items-start  justify-around lg:flex-row lg:items-center">
           <p className="text-[168px] font-bold lg:text-[18vw]">3</p>
-          <div className="flex w-full flex-col gap-12 lg:w-1/2">
-            <h3 className="text-3xl uppercase">
+          <div className="flex w-full flex-col gap-6 md:gap-12 lg:w-1/2">
+            <h3 className="text-xl uppercase md:text-3xl">
               Culture d'Amélioration Continue : Tirer des Leçons Post-Campagne
             </h3>
             <p className="text-neutral-500">
