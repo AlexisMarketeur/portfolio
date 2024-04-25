@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`bg-concrete-50  selection:bg-primary selection:text-white ${inter.className}`}
+        className={`bg-background  selection:bg-primary selection:text-white ${inter.className}`}
       >
         <div>{children}</div>
       </body>

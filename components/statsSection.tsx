@@ -3,10 +3,7 @@ import { inter } from "@/app/fonts";
 
 export default function StatsSection() {
   return (
-    <section
-      id="stats"
-      className="mt-20 flex w-full justify-center py-14 md:py-24"
-    >
+    <section id="stats" className="flex w-full justify-center pt-36">
       <article className="flex w-11/12 flex-col gap-20 md:w-9/12 md:gap-48">
         <div>
           <h2 className="text-3xl font-bold uppercase md:text-8xl">

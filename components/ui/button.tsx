@@ -12,6 +12,8 @@ const buttonVariants = cva(
         default: "text-primary",
         link: "text-primary font-bold hover:underline underline-offset-4",
         cta: "text-primary font-bold border-2 border-b-8 border-primary hover:border-b-4 transform duration-150 transition-all bg-gradient-to-r from-blue to-green hover:from-green hover:to-blue",
+        giantCTA:
+          "text-primary font-bold border-4 border-b-[16px] border-primary  hover:border-b-4 transform duration-150 transition-all bg-gradient-to-r from-blue to-green hover:from-green hover:to-blue",
         secondaryCTA:
           "text-primary font-bold border-2 border-b-4 border-primary hover:border-b-2 transform duration-150 transition-all bg-gradient-to-l from-blue to-green hover:from-green hover:to-blue",
         empty: "",
@@ -22,7 +24,7 @@ const buttonVariants = cva(
         sm: "h-10 rounded-full px-4 text-sm md:text-normal",
         lg: "flex justify-between px-4 py-1 rounded-full w-full sm:w-max",
         icon: "h-12 w-12 rounded-full",
-        empty: "",
+        giant: "w-full h-full rounded-full",
       },
     },
     defaultVariants: {

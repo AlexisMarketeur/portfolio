@@ -24,7 +24,7 @@ export default function Hero() {
             </p>
           </div>
           <div className="w-full overflow-hidden">
-            <p className="flex animate-slideUp2 text-[14vw]  opacity-0">
+            <p className="flex animate-slideUp2 text-[14vw]  opacity-0 ">
               GOOGLE ADS
             </p>
           </div>
@@ -42,7 +42,6 @@ export default function Hero() {
                 playsInline={true}
                 className="h-auto w-[25vw] max-w-[350px] rounded-full"
               >
-                <source src="/memoji.webm" type="video/webm" />
                 <source src="/memoji.mp4" type="video/mp4" />
                 Votre navigateur ne supporte pas la balise vidéo.
               </video>
