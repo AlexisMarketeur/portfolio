@@ -1,25 +1,43 @@
-import { MoveRight, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ArrowUpRight } from "lucide-react";
 
 export const AboutMe = () => (
   <div className="flex w-full justify-center">
     <div className="w-11/12 md:w-9/12">
       <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
         <div className="flex h-full flex-col gap-4 ">
-          <div className="flex flex-col gap-4">
-            <h1 className="text-3xl font-bold uppercase md:text-7xl">
+          <div className="flex h-full flex-col gap-4">
+            <h1 className="md:text-7x mb-4 text-3xl font-bold uppercase">
               A PROPOS DE MOI
             </h1>
-            <p className="text-muted-foreground max-w-md text-left text-xl leading-relaxed tracking-tight">
-              Managing a small business today is already tough. Avoid further
-              complications by ditching outdated, tedious trade methods. Our
-              goal is to streamline SMB trade, making it easier and faster than
-              ever.
+            <p className="mb-8 max-w-xl text-left text-sm leading-relaxed tracking-tight text-neutral-500 md:mb-0 md:text-base">
+              Bonjour, je m'appelle Alexis. Je suis passionné par
+              l'accompagnement des entrepreneurs ambitieux pour maximiser leur
+              visibilité en ligne grâce à des stratégies Google Ads efficaces et
+              ciblées. Depuis le début de ma carrière dans le marketing digital
+              en 2017, j'ai aidé plus de 50 entreprises à augmenter leur trafic,
+              améliorer leurs conversions et optimiser leur ROI. Les campagnes
+              que j'ai créées ont touché des milliers de personnes et généré
+              significativement plus de revenus pour mes clients. En plus de mon
+              travail avec ces entreprises, je partage régulièrement des
+              contenus sur les meilleures pratiques SEA sur mes réseaux sociaux.
+              Actuellement, plus de 20 000 personnes suivent mes publications,
+              où je propose des astuces, des conseils et des analyses
+              approfondies sur les tendances du marketing digital. J'ai
+              également rédigé deux guides pratiques sur les stratégies Google
+              Ads et le freelancing en marketing digital, qui ont aidé plus de
+              10 000 professionnels à affiner leurs compétences et à dynamiser
+              leur carrière. Aujourd'hui, je suis particulièrement motivé pour
+              travailler avec des équipes performantes désireuses de tirer
+              profit de mes compétences en publicité en ligne. Je crois que
+              chaque détail compte. Même si ces détails passent inaperçus, ils
+              contribuent grandement à la réussite d'une campagne. La minutie
+              est au cœur de ma démarche professionnelle.
             </p>
           </div>
-          <div className="flex flex-row gap-4">
-            <Button size="lg" className="gap-4">
-              Sign up here <MoveRight className="h-4 w-4" />
+          <div className="mb-8 flex flex-row gap-4 md:mb-0">
+            <Button size="lg" variant="cta">
+              Discutons ! <ArrowUpRight />
             </Button>
           </div>
         </div>

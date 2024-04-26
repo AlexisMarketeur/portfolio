@@ -1,17 +1,19 @@
 "use client";
 import { CardStack } from "@/components/ui/card-stack";
 import { cn } from "@/utils/cn";
+import { Tooltip } from "./tooltip";
 
 export function Testimony() {
   return (
-    <section className="flex w-full justify-center bg-backgroundSecondary py-32">
+    <section className="flex w-full justify-center bg-backgroundSecondary py-20">
       <div className="flex w-11/12 flex-col items-center">
-        <h2 className="text-left text-3xl font-bold uppercase md:mb-10 md:text-6xl lg:text-7xl xl:text-8xl">
+        <h2 className="mb-24 text-left text-3xl font-bold uppercase md:mb-32 md:text-6xl lg:text-7xl xl:text-8xl">
           ILS ME FONT CONFIANCE
         </h2>
-        <article className="mt-16 flex w-full items-center justify-center text-sm md:mt-8 md:w-6/12 md:pt-32 md:text-xl">
+        <article className="mb-12 flex w-full items-center justify-center text-sm md:w-6/12 md:text-xl">
           <CardStack items={CARDS} />
         </article>
+        <Tooltip />
       </div>
     </section>
   );

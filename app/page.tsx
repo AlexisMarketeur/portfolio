@@ -20,7 +20,7 @@ export default function Home() {
           <Hero />
         </div>
       </div>
-      <main className="flex w-full flex-col gap-28 md:gap-80">
+      <main className="flex w-full flex-col gap-28 md:gap-64">
         <StatsSection />
         <MethodeStatic />
         <BentoGridSecondDemo />
