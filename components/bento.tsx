@@ -39,7 +39,7 @@ const Skeleton = () => (
 );
 
 const Analytics = () => (
-  <div className="flex h-full min-h-48 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-r from-blue to-green">
+  <div className="flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-r from-blue to-green">
     <div className="h-full w-96 rotate-[-7deg] overflow-hidden rounded-[25px]  border-[1px] border-black bg-white transition-transform duration-300 hover:rotate-[-14deg]">
       <Image
         src={image1}
@@ -71,7 +71,7 @@ const GoogleAds = () => (
       <Image
         src={image3}
         alt="Alexis"
-        className="h-full max-h-48 w-full rotate-[3deg] object-contain transition-transform duration-300 hover:rotate-[7deg] hover:scale-105"
+        className="h-full max-h-40 w-full rotate-[3deg] object-contain transition-transform duration-300 hover:rotate-[7deg] hover:scale-105"
         width={900}
         height={900}
         quality={50}
@@ -87,7 +87,7 @@ const YoutubeAds = () => (
       <Image
         src={image4}
         alt="Alexis"
-        className="h-full max-h-48 w-full object-contain "
+        className="h-full max-h-40 w-full object-contain "
         width={900}
         height={900}
         quality={50}
@@ -98,7 +98,7 @@ const YoutubeAds = () => (
 );
 
 const GTM = () => (
-  <div className="flex h-full min-h-48 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l from-blue to-green">
+  <div className="flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l from-blue to-green">
     <div className="hidden h-full w-96 rotate-[4deg] overflow-hidden rounded-[25px] border-[1px]  border-black bg-white transition-transform duration-300 hover:rotate-[6deg] lg:flex">
       <Image
         src={image5}
