@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
+import Glyph from "@/public/vector/glyph.svg";
 import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 
 export const AboutMe = () => (
   <div className="flex w-full justify-center">
@@ -42,9 +44,27 @@ export const AboutMe = () => (
           </div>
         </div>
         <div className="grid grid-cols-2 gap-8">
-          <div className="aspect-square rounded-md border-2 border-b-4 border-black bg-white"></div>
-          <div className="row-span-2 rounded-md border-2 border-b-4 border-black bg-white"></div>
-          <div className="aspect-square rounded-md border-2 border-b-4 border-black bg-white"></div>
+          <div className="aspect-square rounded-md border-2 border-b-4 border-black bg-white">
+            <Image
+              src={Glyph}
+              alt="Alexis"
+              className="h-auto w-full object-cover"
+            />
+          </div>
+          <div className="row-span-2 rounded-md border-2 border-b-4 border-black bg-white">
+            <Image
+              src={Glyph}
+              alt="Alexis"
+              className="h-full w-full object-cover"
+            />
+          </div>
+          <div className="aspect-square rounded-md border-2 border-b-4 border-black bg-white">
+            <Image
+              src={Glyph}
+              alt="Alexis"
+              className="h-auto w-full object-cover"
+            />
+          </div>
         </div>
       </div>
     </div>
