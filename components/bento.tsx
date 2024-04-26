@@ -6,7 +6,7 @@ import image4 from "@/public/Image4.webp";
 import image5 from "@/public/Image5.png";
 import image6 from "@/public/Image6.png";
 import { IconBrandYoutube, IconTableColumn } from "@tabler/icons-react";
-import { Globe, Search } from "lucide-react";
+import { Globe, PieChart, Search } from "lucide-react";
 import Image from "next/image";
 
 export function BentoGridTools() {
@@ -152,6 +152,6 @@ const items = [
       "Understand the impact of effective communication in our lives.",
     header: <GTM />,
     className: "md:col-span-2 border-2 border-b-4 border-black bg-white",
-    icon: <IconTableColumn className="h-4 w-4 " />,
+    icon: <PieChart className="h-4 w-4" />,
   },
 ];
