@@ -6,10 +6,10 @@ import Image from "next/image";
 export const AboutMe = () => (
   <div className="flex w-full justify-center">
     <div className="w-11/12 md:w-9/12">
-      <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
+      <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
         <div className="flex h-full flex-col gap-4 ">
           <div className="flex h-full flex-col gap-4">
-            <h1 className="md:text-7x mb-4 text-3xl font-bold uppercase">
+            <h1 className="mb-4 text-3xl font-bold uppercase md:mb-12 md:text-7xl">
               A PROPOS DE MOI
             </h1>
             <p className="mb-8 max-w-xl text-left text-sm leading-relaxed tracking-tight text-neutral-500 md:mb-0 md:text-base">
@@ -37,7 +37,7 @@ export const AboutMe = () => (
               est au cœur de ma démarche professionnelle.
             </p>
           </div>
-          <div className="mb-8 flex flex-row gap-4 md:mb-0">
+          <div className="mb-8 flex flex-row gap-4 md:mt-8 lg:mb-0">
             <Button size="lg" variant="cta">
               Discutons ! <ArrowUpRight />
             </Button>

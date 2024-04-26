@@ -21,7 +21,7 @@ export function Scroller() {
           alt="hero"
           height={720}
           width={1400}
-          className="mx-auto h-full rounded-2xl  bg-concrete-50 object-cover object-left-top"
+          className="mx-auto h-full rounded-2xl  bg-concrete-50 object-contain object-center"
           draggable={false}
         />
       </ContainerScroll>

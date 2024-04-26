@@ -42,38 +42,66 @@ const CARDS = [
   {
     id: 0,
     name: "Manu Arora",
-    designation: "Senior Software Engineer",
+    designation: "Directeur Marketing Techsol",
     content: (
       <p>
-        These cards are amazing, <Highlight>I want to use them</Highlight> in my
-        project. Framer motion is a godsend ngl tbh fam 🙏
+        Collaborer avec Alexis a transformé{" "}
+        <Highlight>notre campagne Google Ads.</Highlight> Nous avons vu une
+        <Highlight>augmentation de 45%</Highlight> de notre trafic en seulement
+        quelques mois. Exceptionnel!
       </p>
     ),
   },
   {
     id: 1,
-    name: "Elon Musk",
-    designation: "Senior Shitposter",
+    name: "Laurent Mossu",
+    designation: "Fondateur Mode Elegance",
     content: (
       <p>
-        I dont like this Twitter thing,{" "}
-        <Highlight>deleting it right away</Highlight> because yolo. Instead, I
-        would like to call it <Highlight>X.com</Highlight> so that it can easily
-        be confused with adult sites.
+        Alexis a une <Highlight>maîtrise incroyable</Highlight> des nuances de
+        Google Ads. Son approche personnalisée a{" "}
+        <Highlight>boosté nos leads de plus de 30%.</Highlight> Hautement
+        recommandé!
       </p>
     ),
   },
   {
     id: 2,
-    name: "Tyler Durden",
-    designation: "Manager Project Mayhem",
+    name: "Damia Alva",
+    designation: "CEO BioFoods Startup",
     content: (
       <p>
-        The first rule of
-        <Highlight>Fight Club</Highlight> is that you do not talk about fight
-        club. The second rule of
-        <Highlight>Fight club</Highlight> is that you DO NOT TALK about fight
-        club.
+        Grâce à Alexis, nous avons atteint un
+        <Highlight>tout nouveau public cible</Highlight> . Sa stratégie sur
+        Google Ads a{" "}
+        <Highlight>augmenté nos ventes de façon remarquable.</Highlight>
+        Un vrai changement de jeu pour nous.
+      </p>
+    ),
+  },
+  {
+    id: 3,
+    name: "Emily Davis",
+    designation: "Manager Xizz Corp",
+    content: (
+      <p>
+        J'ai eu la chance de travailler avec Alexis sur un projet de
+        <Highlight>refonte de site web.</Highlight> Son expertise en SEO et
+        Google Ads a été <Highlight>inestimable.</Highlight> Je le recommande
+        vivement!
+      </p>
+    ),
+  },
+  {
+    id: 4,
+    name: "Tyler Burvo",
+    designation: "CTO Medicavia",
+    content: (
+      <p>
+        Alexis est un <Highlight>expert en Google Ads.</Highlight> Il a
+        <Highlight>optimisé notre campagne</Highlight> et nous a aidé à
+        atteindre notre public cible. Nous sommes très satisfaits de ses
+        services.
       </p>
     ),
   },

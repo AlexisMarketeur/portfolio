@@ -44,7 +44,7 @@ export default function StatsSection() {
               <TrendingUp className="h-16 w-16 rotate-3 rounded-md border-2 border-b-4 border-black bg-gradient-to-r from-green to-blue p-3 " />
             </div>
             <h3 className={`${inter.className} pb-4 text-8xl font-bold `}>
-              7%
+              87%
             </h3>
             <p className="pb-2 text-lg font-bold ">de part de marché</p>
             <p className="text-sm">
