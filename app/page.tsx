@@ -1,15 +1,14 @@
-import { BentoGridSecondDemo } from "@/components/bento";
-import { Testimony } from "@/components/testimony";
-import Hero from "@/components/hero";
-import Method from "@/components/methode";
-import Navbar from "@/components/navbar";
-import StatsSection from "@/components/statsSection";
-import { SoftSkills } from "@/components/softSkills";
 import { AboutMe } from "@/components/aboutMe";
-import { Scroller } from "@/components/scroller";
+import { BentoGridTools } from "@/components/bento";
 import { FAQ } from "@/components/faq";
 import FinalCTA from "@/components/finalCta";
+import Hero from "@/components/hero";
 import MethodeStatic from "@/components/methodeStatic";
+import Navbar from "@/components/navbar";
+import { Scroller } from "@/components/scroller";
+import { SoftSkills } from "@/components/softSkills";
+import StatsSection from "@/components/statsSection";
+import { Testimony } from "@/components/testimony";
 
 export default function Home() {
   return (
@@ -23,12 +22,12 @@ export default function Home() {
       <main className="flex w-full flex-col gap-28 md:gap-64">
         <StatsSection />
         <MethodeStatic />
-        <BentoGridSecondDemo />
+        <BentoGridTools />
         <Testimony />
         <AboutMe />
         <Scroller />
         <div className="flex flex-col gap-28 bg-backgroundSecondary py-32 md:gap-80">
-          <div className="flex flex-col gap-32">
+          <div className="flex flex-col gap-28 md:gap-48">
             <SoftSkills />
             <FAQ />
           </div>

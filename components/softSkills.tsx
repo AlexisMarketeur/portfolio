@@ -1,9 +1,9 @@
 import {
+  CalendarDays,
   Handshake,
   Layers,
   MessageCircle,
-  PencilLine,
-  Presentation,
+  Sparkles,
   Zap,
 } from "lucide-react";
 
@@ -18,7 +18,7 @@ export const SoftSkills = () => (
         <div className="flex w-full flex-col gap-10 pt-12">
           <div className="grid grid-cols-2 items-start gap-8 md:gap-10 lg:grid-cols-3">
             <article className="flex w-full flex-col items-start gap-6 sm:flex-row">
-              <PencilLine className="mt-2 h-4 w-4 text-primary" />
+              <Sparkles className="mt-2 h-4 w-4 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Créatif et innovant</p>
                 <p className="text-sm text-neutral-500">
@@ -38,7 +38,7 @@ export const SoftSkills = () => (
               </div>
             </article>
             <article className="flex flex-col items-start gap-6 sm:flex-row">
-              <Presentation className="mt-2 h-4 w-4 text-primary" />
+              <CalendarDays className="mt-2 h-4 w-4 text-primary" />
               <div className="flex flex-col gap-1">
                 <p>Adaptable et flexible</p>
                 <p className="text-muted-foreground text-sm text-neutral-500">

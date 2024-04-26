@@ -1,12 +1,15 @@
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
-import {
-  IconClipboardCopy,
-  IconFileBroken,
-  IconSignature,
-  IconTableColumn,
-} from "@tabler/icons-react";
+import image1 from "@/public/Image1.jpg";
+import image2 from "@/public/Image2.jpg";
+import image3 from "@/public/Image3.png";
+import image4 from "@/public/Image4.webp";
+import image5 from "@/public/Image5.png";
+import image6 from "@/public/Image6.png";
+import { IconBrandYoutube, IconTableColumn } from "@tabler/icons-react";
+import { Globe, Search } from "lucide-react";
+import Image from "next/image";
 
-export function BentoGridSecondDemo() {
+export function BentoGridTools() {
   return (
     <div className="flex w-full justify-center">
       <div className="w-11/12 md:w-9/12">
@@ -32,36 +35,123 @@ export function BentoGridSecondDemo() {
   );
 }
 const Skeleton = () => (
-  <div className="dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex h-full min-h-[6rem] w-full   flex-1 rounded-xl border  border-transparent bg-neutral-100 [mask-image:radial-gradient(ellipse_at_center,white,transparent)] dark:border-white/[0.2] dark:bg-black"></div>
+  <div className="h-full min-h-24 w-full rounded-xl bg-gradient-to-r from-blue to-green"></div>
 );
+
+const Analytics = () => (
+  <div className="flex h-full min-h-48 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-r from-blue to-green">
+    <div className="h-full w-96 rotate-[-7deg] overflow-hidden rounded-[25px]  border-[1px] border-black bg-white transition-transform duration-300 hover:rotate-[-14deg]">
+      <Image
+        src={image1}
+        alt="Alexis"
+        className="h-full w-full object-cover"
+        width={900}
+        height={900}
+        quality={50}
+        priority={true}
+      />
+    </div>
+    <div className="hidden h-full w-96 rotate-[3deg] overflow-hidden rounded-[25px] border-[1px] border-black bg-white transition-transform duration-300  hover:rotate-[7deg] lg:flex">
+      <Image
+        src={image2}
+        alt="Alexis"
+        className="h-full w-full object-cover"
+        width={900}
+        height={900}
+        quality={50}
+        priority={true}
+      />
+    </div>
+  </div>
+);
+
+const GoogleAds = () => (
+  <div className="flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l from-blue to-green">
+    <div className="h-full w-96 overflow-hidden ">
+      <Image
+        src={image3}
+        alt="Alexis"
+        className="h-full max-h-48 w-full rotate-[3deg] object-contain transition-transform duration-300 hover:rotate-[7deg] hover:scale-105"
+        width={900}
+        height={900}
+        quality={50}
+        priority={true}
+      />
+    </div>
+  </div>
+);
+
+const YoutubeAds = () => (
+  <div className="flex h-full min-h-24 w-full items-center justify-around overflow-hidden rounded-xl bg-gradient-to-r from-blue to-green">
+    <div className="h-5/6 w-max rotate-[-7deg] overflow-hidden rounded-[25px] transition-transform duration-300 hover:rotate-[-10deg] hover:scale-105">
+      <Image
+        src={image4}
+        alt="Alexis"
+        className="h-full max-h-48 w-full object-contain "
+        width={900}
+        height={900}
+        quality={50}
+        priority={true}
+      />
+    </div>
+  </div>
+);
+
+const GTM = () => (
+  <div className="flex h-full min-h-48 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l from-blue to-green">
+    <div className="hidden h-full w-96 rotate-[4deg] overflow-hidden rounded-[25px] border-[1px]  border-black bg-white transition-transform duration-300 hover:rotate-[6deg] lg:flex">
+      <Image
+        src={image5}
+        alt="Alexis"
+        className="h-full w-full object-cover"
+        width={900}
+        height={900}
+        quality={50}
+        priority={true}
+      />
+    </div>
+    <div className=" h-full w-96 rotate-[7deg] overflow-hidden rounded-[25px] border-[1px] border-black bg-white transition-transform duration-300  hover:rotate-[9deg] ">
+      <Image
+        src={image6}
+        alt="Alexis"
+        className="h-full w-full object-cover"
+        width={900}
+        height={900}
+        quality={50}
+        priority={true}
+      />
+    </div>
+  </div>
+);
+
 const items = [
   {
-    title: "The Dawn of Innovation",
+    title: "GA4 & Semrush",
     description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: <Skeleton />,
+    header: <Analytics />,
     className: "md:col-span-2 border-2 border-b-4 border-black bg-white",
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    icon: <Search className="h-4 w-4" />,
   },
   {
-    title: "The Digital Revolution",
+    title: "Google Ads & Shopping",
     description: "Dive into the transformative power of technology.",
-    header: <Skeleton />,
+    header: <GoogleAds />,
     className: "md:col-span-1 border-2 border-b-4 border-black bg-white",
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    icon: <Globe className="h-4 w-4 " />,
   },
   {
-    title: "The Art of Design",
+    title: "Youtube Ads & Display",
     description: "Discover the beauty of thoughtful and functional design.",
-    header: <Skeleton />,
+    header: <YoutubeAds />,
     className: "md:col-span-1 border-2 border-b-4 border-black bg-white",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    icon: <IconBrandYoutube className="h-4 w-4 " />,
   },
   {
-    title: "The Power of Communication",
+    title: "Google Tag Manager & Looker Studio",
     description:
       "Understand the impact of effective communication in our lives.",
-    header: <Skeleton />,
+    header: <GTM />,
     className: "md:col-span-2 border-2 border-b-4 border-black bg-white",
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    icon: <IconTableColumn className="h-4 w-4 " />,
   },
 ];
