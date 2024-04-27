@@ -124,21 +124,21 @@ const GTM = () => (
 const items = [
   {
     title: "GA4 & Semrush",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
+    description: "J'analyse votre traffic et vos keywords.",
     header: <Analytics />,
     className: "md:col-span-2 border-2 border-b-4 border-black bg-white",
     icon: <Search className="h-4 w-4" />,
   },
   {
     title: "Google Ads & Shopping",
-    description: "Dive into the transformative power of technology.",
+    description: "Je met en place vos campagnes textuels.",
     header: <GoogleAds />,
     className: "md:col-span-1 border-2 border-b-4 border-black bg-white",
     icon: <Globe className="h-4 w-4 " />,
   },
   {
     title: "Youtube Ads & Display",
-    description: "Discover the beauty of thoughtful and functional design.",
+    description: "Je met en place vos campagnes photos et vidéos.",
     header: <YoutubeAds />,
     className: "md:col-span-1 border-2 border-b-4 border-black bg-white",
     icon: <IconBrandYoutube className="h-4 w-4 " />,
@@ -146,7 +146,7 @@ const items = [
   {
     title: "Google Tag Manager & Looker Studio",
     description:
-      "Understand the impact of effective communication in our lives.",
+      "Je met en place un suivi des performances et un dashboard interactif.",
     header: <GTM />,
     className: "md:col-span-2 border-2 border-b-4 border-black bg-white",
     icon: <PieChart className="h-4 w-4" />,
