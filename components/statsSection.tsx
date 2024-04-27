@@ -16,7 +16,7 @@ export default function StatsSection() {
         <div className="flex w-full flex-col justify-between gap-24 lg:flex-row">
           <div className="flex min-h-52 w-full flex-col lg:w-2/12">
             <div className="mb-6">
-              <UserCheck className="h-16 w-16 rotate-6 rounded-md border-2 border-b-4 border-black bg-gradient-to-r from-greenCustom-100 to-blueCustom-100 p-3" />
+              <Search className="h-16 w-16 rotate-6 rounded-md border-2 border-b-4 border-black bg-gradient-to-r from-greenCustom-100 to-blueCustom-100 p-3" />
             </div>
             <h3 className={`${inter.className} pb-4 text-8xl font-bold `}>
               92%
@@ -46,7 +46,7 @@ export default function StatsSection() {
           </div>
           <div className="flex min-h-52 w-full flex-col lg:w-2/12">
             <div className="mb-6">
-              <Search className="h-16 w-16 rotate-[-4deg] rounded-md border-2 border-b-4 border-black bg-gradient-to-l from-greenCustom-100 to-blueCustom-100 p-3 " />
+              <UserCheck className="h-16 w-16 rotate-[-4deg] rounded-md border-2 border-b-4 border-black bg-gradient-to-l from-greenCustom-100 to-blueCustom-100 p-3 " />
             </div>
             <h3 className={`${inter.className} pb-4 text-8xl font-bold `}>
               90%
