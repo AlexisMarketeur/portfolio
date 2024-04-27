@@ -16,40 +16,45 @@ export default function StatsSection() {
         <div className="flex w-full flex-col justify-between gap-24 lg:flex-row">
           <div className="flex min-h-52 w-full flex-col lg:w-2/12">
             <div className="mb-6">
-              <UserCheck className="from-greenCustom-100 to-blueCustom-100 h-16 w-16 rotate-6 rounded-md border-2 border-b-4 border-black bg-gradient-to-r p-3" />
+              <UserCheck className="h-16 w-16 rotate-6 rounded-md border-2 border-b-4 border-black bg-gradient-to-r from-greenCustom-100 to-blueCustom-100 p-3" />
+            </div>
+            <h3 className={`${inter.className} pb-4 text-8xl font-bold `}>
+              92%
+            </h3>
+            <p className="pb-2 text-lg font-bold ">de part de marché</p>
+            <p className="text-sm">
+              Avec 50 millions d'utilisateurs chaque mois en France, il n’y a
+              pas de meilleur endroit pour toucher un vaste public que sur
+              Google.
+            </p>
+          </div>
+          <div className="flex min-h-52 w-full flex-col lg:w-2/12">
+            <div className="mb-6">
+              <Search className="h-16 w-16 rotate-[-4deg] rounded-md border-2 border-b-4 border-black bg-gradient-to-l from-greenCustom-100 to-blueCustom-100 p-3 " />
             </div>
             <h3 className={`${inter.className} pb-4 text-8xl font-bold `}>
               90%
             </h3>
-            <p className="pb-2 text-lg font-bold ">de part de marché</p>
+            <p className="pb-2 text-lg font-bold ">Des consommateurs</p>
             <p className="text-sm">
-              50 millions d'utilisateurs chaque mois en France
+              Estiment que les publicités Google Ads influencent leur recherche
+              et leur décision d’achat lorsqu'ils en effectuent une !
             </p>
           </div>
           <div className="flex min-h-52 w-full flex-col lg:w-2/12">
             <div className="mb-6">
-              <Search className="from-greenCustom-100 to-blueCustom-100 h-16 w-16 rotate-[-4deg] rounded-md border-2 border-b-4 border-black bg-gradient-to-l p-3 " />
+              <TrendingUp className="h-16 w-16 rotate-3 rounded-md border-2 border-b-4 border-black bg-gradient-to-r from-greenCustom-100 to-blueCustom-100 p-3 " />
             </div>
             <h3 className={`${inter.className} pb-4 text-8xl font-bold `}>
-              63%
+              200%
             </h3>
-            <p className="pb-2 text-lg font-bold ">D'utilisateur satisfait</p>
-            <p className="text-sm">
-              Dans leur recherche nagitationelle, commerciale et
-              transactionnelle
+            <p className="pb-2 text-lg font-bold ">
+              de retour sur investissement (ROI)
             </p>
-          </div>
-          <div className="flex min-h-52 w-full flex-col lg:w-2/12">
-            <div className="mb-6">
-              <TrendingUp className="from-greenCustom-100 to-blueCustom-100 h-16 w-16 rotate-3 rounded-md border-2 border-b-4 border-black bg-gradient-to-r p-3 " />
-            </div>
-            <h3 className={`${inter.className} pb-4 text-8xl font-bold `}>
-              87%
-            </h3>
-            <p className="pb-2 text-lg font-bold ">de part de marché</p>
             <p className="text-sm">
-              Choisir Google Ads c’est maximiser vos chances de toucher un
-              public qualifié
+              Si vous investissez un euro dans une publicité Google, vous pouvez
+              vous attendre à gagner en moyenne 2 euros en retour grâce
+              à ces publicités.
             </p>
           </div>
         </div>

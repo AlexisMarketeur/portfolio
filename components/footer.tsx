@@ -1,4 +1,4 @@
-import { Linkedin, Mail, Twitter } from "lucide-react";
+import { ArrowUp, Linkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Button } from "./ui/button";
 
@@ -8,13 +8,19 @@ export const Footer = () => {
       <div className="w-full py-8 ">
         <div className=" sm:flex sm:items-center sm:justify-between ">
           <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
-            <li>
-              <p className="text-neutral-500 ">
-                Alexis Rodrigues | Freelance Google Ads Partner
-              </p>
+            <li className="flex gap-2">
+              <p className="text-neutral-500 ">Alexis Rodrigues |</p>
+              <Link
+                href="https://abdalmalikbourassi.com"
+                className="text-black transition hover:opacity-75"
+                target="_blank"
+              >
+                Développé par Malik
+              </Link>
             </li>
           </ul>
 
+          {/* DEV BY MALIK */}
           <ul className="mt-8 flex items-center justify-center gap-6 sm:mt-0 lg:justify-end">
             <li>
               <Button variant="link" size="default" asChild>
@@ -34,7 +40,6 @@ export const Footer = () => {
                 </Link>
               </Button>
             </li>
-
             <li>
               <Button variant="link" size="default" asChild>
                 <Link
@@ -59,6 +64,14 @@ export const Footer = () => {
                 >
                   <span className="sr-only">Twitter</span>
                   <Twitter />
+                </Link>
+              </Button>
+            </li>
+
+            <li className="ml-8 hidden md:flex">
+              <Button variant="link" size="default" asChild>
+                <Link href="/" className="flex gap-4">
+                  <ArrowUp />
                 </Link>
               </Button>
             </li>
