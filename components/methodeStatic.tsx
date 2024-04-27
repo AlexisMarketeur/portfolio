@@ -74,7 +74,7 @@ export default function MethodeStatic() {
               asChild
             >
               <Link href="/">
-                discutons !
+                Discutons !
                 <ArrowUpRight />
               </Link>
             </Button>

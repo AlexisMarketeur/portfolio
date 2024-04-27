@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
         <Button variant="cta" className="hidden md:flex" size="lg" asChild>
           <Link href="https://calendly.com" target="_blank">
-            discutons ! <ArrowUpRight />
+            Discutons ! <ArrowUpRight />
           </Link>
         </Button>
       </div>
