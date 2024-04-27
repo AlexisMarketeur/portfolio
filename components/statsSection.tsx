@@ -1,5 +1,5 @@
-import { UserCheck, Search, TrendingUp } from "lucide-react";
 import { inter } from "@/app/fonts";
+import { Search, TrendingUp, UserCheck } from "lucide-react";
 
 export default function StatsSection() {
   return (

@@ -1,6 +1,6 @@
+import { ArrowUpRight, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Button } from "./ui/button";
-import { ArrowUpRight, Linkedin } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -9,7 +9,7 @@ const Navbar = () => {
         <Button variant="link" size="default" asChild>
           <Link href="#methode">ma méthode</Link>
         </Button>
-        <Button variant="link" size="default" asChild>
+        <Button variant="link" size="default" asChild className="mx-8">
           <Link href="#about">à propos</Link>
         </Button>
       </div>
@@ -29,13 +29,13 @@ const Navbar = () => {
               <Linkedin />
             </Link>
           </Button>
-          <Button variant="link" size="default" asChild>
+          <Button variant="link" size="default" asChild className="md:mx-8">
             <Link href="/CV.pdf" target="_blank">
               mon CV
             </Link>
           </Button>
         </div>
-        <Button variant="cta" className="hidden md:flex" size="default" asChild>
+        <Button variant="cta" className="hidden md:flex" size="lg" asChild>
           <Link href="https://calendly.com" target="_blank">
             discutons ! <ArrowUpRight />
           </Link>

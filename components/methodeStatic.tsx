@@ -31,7 +31,7 @@ export default function MethodeStatic() {
           </div>
           <div className="flex w-full flex-col items-end  justify-around lg:flex-row-reverse lg:items-center">
             <p className="text-[168px] font-bold lg:text-[18vw]">2</p>
-            <div className="flex w-full flex-col gap-6 md:gap-12 lg:w-1/2">
+            <div className="flex w-full flex-col gap-6 text-right md:gap-12 lg:w-1/2 lg:text-left">
               <h3 className="text-xl uppercase md:text-3xl">
                 Optimisation Axée sur les Données : Maximiser la Pertinence
               </h3>
@@ -69,7 +69,7 @@ export default function MethodeStatic() {
           <div className="flex h-12 w-full items-center justify-center">
             <Button
               variant="cta"
-              size="default"
+              size="lg"
               className="text-md flex w-full justify-between px-4 sm:w-40 md:justify-center"
               asChild
             >

@@ -1,7 +1,8 @@
 import { AboutMe } from "@/components/aboutMe";
+import CTA from "@/components/animatedCTA";
 import { BentoGridTools } from "@/components/bento";
 import { FAQ } from "@/components/faq";
-import CTA from "@/components/animatedCTA";
+import { Footer } from "@/components/footer";
 import Hero from "@/components/hero";
 import MethodeStatic from "@/components/methodeStatic";
 import Navbar from "@/components/navbar";
@@ -9,7 +10,6 @@ import { Scroller } from "@/components/scroller";
 import { SoftSkills } from "@/components/softSkills";
 import StatsSection from "@/components/statsSection";
 import { Testimony } from "@/components/testimony";
-import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (

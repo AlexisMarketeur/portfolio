@@ -24,37 +24,43 @@ export const Footer = () => {
               </Button>
             </li>
             <li>
-              <Link
-                href="mailto:a.rodriguespro1@gmail.com"
-                className="text-black transition hover:opacity-75"
-              >
-                <span className="sr-only">Mail</span>
-                <Mail />
-              </Link>
+              <Button variant="link" size="default" asChild>
+                <Link
+                  href="mailto:a.rodriguespro1@gmail.com"
+                  className="text-black transition hover:opacity-75"
+                >
+                  <span className="sr-only">Mail</span>
+                  <Mail />
+                </Link>
+              </Button>
             </li>
 
             <li>
-              <Link
-                href="https://www.linkedin.com/in/alexis-rodrigues-3a6349178/"
-                rel="noreferrer"
-                target="_blank"
-                className="text-black transition hover:opacity-75"
-              >
-                <span className="sr-only">Instagram</span>
-                <Linkedin />
-              </Link>
+              <Button variant="link" size="default" asChild>
+                <Link
+                  href="https://www.linkedin.com/in/alexis-rodrigues-3a6349178/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-black transition hover:opacity-75"
+                >
+                  <span className="sr-only">Instagram</span>
+                  <Linkedin />
+                </Link>
+              </Button>
             </li>
 
             <li>
-              <Link
-                href="https://twitter.com/alexismarketeur"
-                rel="noreferrer"
-                target="_blank"
-                className="text-black transition hover:opacity-75"
-              >
-                <span className="sr-only">Twitter</span>
-                <Twitter />
-              </Link>
+              <Button variant="link" size="default" asChild>
+                <Link
+                  href="https://twitter.com/alexismarketeur"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-black transition hover:opacity-75"
+                >
+                  <span className="sr-only">Twitter</span>
+                  <Twitter />
+                </Link>
+              </Button>
             </li>
           </ul>
         </div>

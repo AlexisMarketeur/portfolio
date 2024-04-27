@@ -37,7 +37,7 @@ export const AboutMe = () => (
               est au cœur de ma démarche professionnelle.
             </p>
           </div>
-          <div className="mb-8 flex flex-row gap-4 md:mt-8 lg:mb-0">
+          <div className="mb-8 flex min-h-16 flex-row items-center gap-4 md:mt-8 lg:mb-0">
             <Button size="lg" variant="cta">
               Discutons ! <ArrowUpRight />
             </Button>

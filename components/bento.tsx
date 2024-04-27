@@ -5,7 +5,7 @@ import image3 from "@/public/Image3.png";
 import image4 from "@/public/Image4.webp";
 import image5 from "@/public/Image5.png";
 import image6 from "@/public/Image6.png";
-import { IconBrandYoutube, IconTableColumn } from "@tabler/icons-react";
+import { IconBrandYoutube } from "@tabler/icons-react";
 import { Globe, PieChart, Search } from "lucide-react";
 import Image from "next/image";
 
@@ -36,8 +36,8 @@ export function BentoGridTools() {
 }
 
 const Analytics = () => (
-  <div className="from-blueCustom-100 to-greenCustom-100 flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-r">
-    <div className="h-full w-96 rotate-[-7deg] overflow-hidden rounded-[25px]  border-[1px] border-black bg-white transition-transform duration-300 hover:rotate-[-14deg]">
+  <div className="flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-r from-blueCustom-100 to-greenCustom-100">
+    <div className="h-full w-96 rotate-[-7deg] overflow-hidden rounded-[25px]  border-[1px] border-black bg-white transition-transform duration-300 hover:rotate-[-10deg]">
       <Image
         src={image1}
         alt="Alexis"
@@ -63,7 +63,7 @@ const Analytics = () => (
 );
 
 const GoogleAds = () => (
-  <div className="from-blueCustom-100 to-greenCustom-100 flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l">
+  <div className="flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l from-blueCustom-100 to-greenCustom-100">
     <div className="h-full w-96 overflow-hidden ">
       <Image
         src={image3}
@@ -79,7 +79,7 @@ const GoogleAds = () => (
 );
 
 const YoutubeAds = () => (
-  <div className="from-blueCustom-100 to-greenCustom-100 flex h-full min-h-24 w-full items-center justify-around overflow-hidden rounded-xl bg-gradient-to-r">
+  <div className="flex h-full min-h-24 w-full items-center justify-around overflow-hidden rounded-xl bg-gradient-to-r from-blueCustom-100 to-greenCustom-100">
     <div className="h-5/6 w-max rotate-[-7deg] overflow-hidden rounded-[25px] transition-transform duration-300 hover:rotate-[-10deg] hover:scale-105">
       <Image
         src={image4}
@@ -95,7 +95,7 @@ const YoutubeAds = () => (
 );
 
 const GTM = () => (
-  <div className="from-blueCustom-100 to-greenCustom-100 flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l">
+  <div className="flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l from-blueCustom-100 to-greenCustom-100">
     <div className="hidden h-full w-96 rotate-[4deg] overflow-hidden rounded-[25px] border-[1px]  border-black bg-white transition-transform duration-300 hover:rotate-[6deg] lg:flex">
       <Image
         src={image5}

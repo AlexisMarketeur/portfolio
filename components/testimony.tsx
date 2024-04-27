@@ -10,7 +10,7 @@ export function Testimony() {
         <h2 className="mb-24 text-left text-3xl font-bold uppercase md:mb-32 md:w-9/12 md:text-6xl lg:text-7xl xl:text-8xl">
           ILS ME FONT CONFIANCE
         </h2>
-        <article className="mb-12 flex w-full items-center justify-center text-sm md:w-6/12 md:text-xl">
+        <article className="mb-12 flex w-full items-center justify-center text-sm md:w-8/12 md:text-xl lg:w-6/12">
           <CardStack items={CARDS} />
         </article>
         <Tooltip />
