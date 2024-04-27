@@ -9,6 +9,7 @@ import { Scroller } from "@/components/scroller";
 import { SoftSkills } from "@/components/softSkills";
 import StatsSection from "@/components/statsSection";
 import { Testimony } from "@/components/testimony";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -33,9 +34,12 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className="w-full bg-backgroundSecondary">
+      <div className="w-full bg-backgroundSecondary">
         <CTA />
-      </footer>
+      </div>
+      <div className="flex w-full justify-center border-t-[1px] border-black">
+        <Footer />
+      </div>
     </div>
   );
 }

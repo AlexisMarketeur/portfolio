@@ -30,7 +30,9 @@ export default function CTA() {
               </span>
             </span>
 
-            <span className="transition-colors duration-500 ease-in-out group-hover:text-slate-300"></span>
+            {
+              // <span className="transition-colors duration-500 ease-in-out group-hover:text-slate-300"></span>
+            }
           </Link>
         </div>
       </Button>
