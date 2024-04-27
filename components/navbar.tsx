@@ -10,7 +10,7 @@ const Navbar = () => {
           <Link href="#methode">ma méthode</Link>
         </Button>
         <Button variant="link" size="default" asChild>
-          <Link href="/">à propos</Link>
+          <Link href="#about">à propos</Link>
         </Button>
       </div>
 
@@ -23,7 +23,7 @@ const Navbar = () => {
             className="hover:opacity-75"
           >
             <Link
-              href="https://www.linkedin.com/in/alexis-rodrigues-3a6349178"
+              href="https://www.linkedin.com/in/alexis-rodrigues-3a6349178/"
               target="_blank"
             >
               <Linkedin />

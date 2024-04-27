@@ -4,8 +4,11 @@ import Link from "next/link";
 
 export default function MethodeStatic() {
   return (
-    <section className="flex w-full justify-center">
-      <div className="flex w-11/12 flex-col  md:w-9/12 ">
+    <section
+      className="flex w-full justify-center  pt-28 md:pt-64"
+      id="methode"
+    >
+      <div className="flex w-11/12 flex-col  md:w-9/12">
         <h2 className="text-left text-3xl font-bold uppercase md:mb-10 md:text-6xl lg:text-7xl xl:text-8xl">
           ma méthode de travail
         </h2>

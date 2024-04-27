@@ -21,11 +21,16 @@ export default function Home() {
         </div>
       </div>
       <main className="flex w-full flex-col gap-28 md:gap-64">
-        <StatsSection />
-        <MethodeStatic />
+        <div>
+          <StatsSection />
+          <MethodeStatic />
+        </div>
+
         <BentoGridTools />
-        <Testimony />
-        <AboutMe />
+        <div>
+          <Testimony />
+          <AboutMe />
+        </div>
         <Scroller />
         <div className="flex flex-col gap-28 bg-backgroundSecondary py-32 md:gap-80">
           <div className="flex flex-col gap-28 md:gap-48">

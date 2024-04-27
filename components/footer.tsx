@@ -35,7 +35,7 @@ export const Footer = () => {
 
             <li>
               <Link
-                href="#"
+                href="https://www.linkedin.com/in/alexis-rodrigues-3a6349178/"
                 rel="noreferrer"
                 target="_blank"
                 className="text-black transition hover:opacity-75"
@@ -47,7 +47,7 @@ export const Footer = () => {
 
             <li>
               <Link
-                href="#"
+                href="https://twitter.com/alexismarketeur"
                 rel="noreferrer"
                 target="_blank"
                 className="text-black transition hover:opacity-75"

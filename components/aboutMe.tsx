@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
 export const AboutMe = () => (
-  <div className="flex w-full justify-center">
+  <section className="flex w-full justify-center pt-28 md:pt-64" id="about">
     <div className="w-11/12 md:w-9/12">
       <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
         <div className="flex h-full flex-col gap-4 ">
@@ -68,5 +68,5 @@ export const AboutMe = () => (
         </div>
       </div>
     </div>
-  </div>
+  </section>
 );
