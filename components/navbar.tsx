@@ -16,7 +16,12 @@ const Navbar = () => {
 
       <div className="flex w-full gap-10 md:w-min">
         <div className="flex w-full flex-row-reverse items-center justify-between">
-          <Button variant="link" size="default" asChild>
+          <Button
+            variant="link"
+            size="default"
+            asChild
+            className="hover:opacity-75"
+          >
             <Link
               href="https://www.linkedin.com/in/alexis-rodrigues-3a6349178"
               target="_blank"

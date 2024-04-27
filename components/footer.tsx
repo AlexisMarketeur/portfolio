@@ -1,5 +1,6 @@
 import { Linkedin, Mail, Twitter } from "lucide-react";
 import Link from "next/link";
+import { Button } from "./ui/button";
 
 export const Footer = () => {
   return (
@@ -14,7 +15,14 @@ export const Footer = () => {
             </li>
           </ul>
 
-          <ul className="mt-8 flex justify-center gap-6 sm:mt-0 lg:justify-end">
+          <ul className="mt-8 flex items-center justify-center gap-6 sm:mt-0 lg:justify-end">
+            <li>
+              <Button variant="link" size="default" asChild>
+                <Link href="/CV.pdf" target="_blank">
+                  mon CV
+                </Link>
+              </Button>
+            </li>
             <li>
               <Link
                 href="mailto:a.rodriguespro1@gmail.com"
