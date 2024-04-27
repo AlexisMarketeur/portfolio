@@ -29,7 +29,7 @@ export const Highlight = ({
   return (
     <span
       className={cn(
-        "mx-1 rounded-[5px] bg-gradient-to-r from-blue to-green py-0.5 text-sm font-bold text-black md:text-xl ",
+        "from-blueCustom-100 to-greenCustom-100 mx-1 rounded-[5px] bg-gradient-to-r py-0.5 text-sm font-bold text-black md:text-xl ",
         className,
       )}
     >

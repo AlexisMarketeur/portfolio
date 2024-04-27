@@ -34,12 +34,9 @@ export function BentoGridTools() {
     </div>
   );
 }
-const Skeleton = () => (
-  <div className="h-full min-h-24 w-full rounded-xl bg-gradient-to-r from-blue to-green"></div>
-);
 
 const Analytics = () => (
-  <div className="flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-r from-blue to-green">
+  <div className="from-blueCustom-100 to-greenCustom-100 flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-r">
     <div className="h-full w-96 rotate-[-7deg] overflow-hidden rounded-[25px]  border-[1px] border-black bg-white transition-transform duration-300 hover:rotate-[-14deg]">
       <Image
         src={image1}
@@ -66,7 +63,7 @@ const Analytics = () => (
 );
 
 const GoogleAds = () => (
-  <div className="flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l from-blue to-green">
+  <div className="from-blueCustom-100 to-greenCustom-100 flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l">
     <div className="h-full w-96 overflow-hidden ">
       <Image
         src={image3}
@@ -82,7 +79,7 @@ const GoogleAds = () => (
 );
 
 const YoutubeAds = () => (
-  <div className="flex h-full min-h-24 w-full items-center justify-around overflow-hidden rounded-xl bg-gradient-to-r from-blue to-green">
+  <div className="from-blueCustom-100 to-greenCustom-100 flex h-full min-h-24 w-full items-center justify-around overflow-hidden rounded-xl bg-gradient-to-r">
     <div className="h-5/6 w-max rotate-[-7deg] overflow-hidden rounded-[25px] transition-transform duration-300 hover:rotate-[-10deg] hover:scale-105">
       <Image
         src={image4}
@@ -98,7 +95,7 @@ const YoutubeAds = () => (
 );
 
 const GTM = () => (
-  <div className="flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l from-blue to-green">
+  <div className="from-blueCustom-100 to-greenCustom-100 flex h-full min-h-24 w-full justify-around overflow-hidden rounded-xl bg-gradient-to-l">
     <div className="hidden h-full w-96 rotate-[4deg] overflow-hidden rounded-[25px] border-[1px]  border-black bg-white transition-transform duration-300 hover:rotate-[6deg] lg:flex">
       <Image
         src={image5}

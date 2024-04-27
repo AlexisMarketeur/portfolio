@@ -27,12 +27,22 @@ const config = {
         backgroundSecondary: "#f5f5f5",
         primary: "#000000",
         secondary: "#5e636a",
-        green: "#dcfce7",
-        blue: "#dbeafe",
-        red: "#fee2e2",
-        orange: "#ffe6d5",
 
-        water: {
+        greenCustom: {
+          "50": "#f0fdf4",
+          "100": "#dcfce7",
+          "200": "#bbf7d0",
+          "300": "#86efaa",
+          "400": "#4ade7d",
+          "500": "#22c55a",
+          "600": "#16a346",
+          "700": "#15803a",
+          "800": "#166531",
+          "900": "#14532a",
+          "950": "#052e13",
+        },
+
+        blueCustom: {
           "50": "#eff6ff",
           "100": "#dbeafe",
           "200": "#bfdafe",
@@ -95,6 +105,10 @@ const config = {
           from: { opacity: "0" },
           to: { opacity: "1" },
         },
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -108,6 +122,7 @@ const config = {
         slideUp1: "slideUp 1s cubic-bezier(0.45, 0.64, 0.12, 1) 0s both",
         slideUp2: "slideUp 0.8s cubic-bezier(0.45, 0.64, 0.12, 1) 0.3s both",
         slideUp3: "slideUp 0.7s cubic-bezier(0.45, 0.64, 0.12, 1) 0.6s both",
+        "infinite-scroll": "infinite-scroll 6s linear infinite",
       },
     },
   },

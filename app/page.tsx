@@ -1,7 +1,7 @@
 import { AboutMe } from "@/components/aboutMe";
 import { BentoGridTools } from "@/components/bento";
 import { FAQ } from "@/components/faq";
-import FinalCTA from "@/components/finalCta";
+import CTA from "@/components/animatedCTA";
 import Hero from "@/components/hero";
 import MethodeStatic from "@/components/methodeStatic";
 import Navbar from "@/components/navbar";
@@ -31,9 +31,11 @@ export default function Home() {
             <SoftSkills />
             <FAQ />
           </div>
-          <FinalCTA />
         </div>
       </main>
+      <footer className="w-full bg-backgroundSecondary">
+        <CTA />
+      </footer>
     </div>
   );
 }
