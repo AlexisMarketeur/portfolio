@@ -41,8 +41,8 @@ export const Highlight = ({
 const CARDS = [
   {
     id: 0,
-    name: "Manu Arora",
-    designation: "Directeur Marketing Techsol",
+    name: "Laëtitia Fournier",
+    designation: "Directrice des achats & ventes - Bonateks",
     content: (
       <p>
         Collaborer avec Alexis a transformé{" "}
@@ -54,8 +54,8 @@ const CARDS = [
   },
   {
     id: 1,
-    name: "Laurent Mossu",
-    designation: "Fondateur Mode Elegance",
+    name: "Enzo Vergne",
+    designation: "Chief Marketing Officer - Génération Y",
     content: (
       <p>
         Alexis a une <Highlight>maîtrise incroyable</Highlight> des nuances de
@@ -67,8 +67,8 @@ const CARDS = [
   },
   {
     id: 2,
-    name: "Damia Alva",
-    designation: "CEO BioFoods Startup",
+    name: "Noé Zaabi",
+    designation: "Chef des opérations - Wingman Campus Fund",
     content: (
       <p>
         Grâce à Alexis, nous avons atteint un
@@ -81,8 +81,8 @@ const CARDS = [
   },
   {
     id: 3,
-    name: "Emily Davis",
-    designation: "Manager Xizz Corp",
+    name: "Benjamin Athea",
+    designation: "Responsable des ventes online - SNCF Connect & Tech",
     content: (
       <p>
         J'ai eu la chance de travailler avec Alexis sur un projet de
@@ -94,14 +94,14 @@ const CARDS = [
   },
   {
     id: 4,
-    name: "Tyler Burvo",
-    designation: "CTO Medicavia",
+    name: "Édouard Bourbon",
+    designation: "OMNES Education INSEEC MSc - Directeur de l'innovation",
     content: (
       <p>
-        Alexis est un <Highlight>expert en Google Ads.</Highlight> Il a
-        <Highlight>optimisé notre campagne</Highlight> et nous a aidé à
-        atteindre notre public cible. Nous sommes très satisfaits de ses
-        services.
+        J'ai eu la chance de travailler avec Alexis sur un projet de
+        <Highlight>refonte de site web.</Highlight> Son expertise en SEO et
+        Google Ads a été <Highlight>inestimable.</Highlight> Je le recommande
+        vivement!
       </p>
     ),
   },

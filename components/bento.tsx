@@ -131,14 +131,14 @@ const items = [
   },
   {
     title: "Google Ads & Shopping",
-    description: "Je met en place vos campagnes textuels.",
+    description: "Je mets en place vos campagnes textuelles.",
     header: <GoogleAds />,
     className: "md:col-span-1 border-2 border-b-4 border-black bg-white",
     icon: <Globe className="h-4 w-4 " />,
   },
   {
     title: "Youtube Ads & Display",
-    description: "Je met en place vos campagnes photos et vidéos.",
+    description: "Je mets en place vos campagnes photos et vidéos.",
     header: <YoutubeAds />,
     className: "md:col-span-1 border-2 border-b-4 border-black bg-white",
     icon: <IconBrandYoutube className="h-4 w-4 " />,
@@ -146,7 +146,7 @@ const items = [
   {
     title: "Google Tag Manager & Looker Studio",
     description:
-      "Je met en place un suivi des performances et un dashboard interactif.",
+      "Je mets en place un suivi des performances et un dashboard interactif.",
     header: <GTM />,
     className: "md:col-span-2 border-2 border-b-4 border-black bg-white",
     icon: <PieChart className="h-4 w-4" />,
