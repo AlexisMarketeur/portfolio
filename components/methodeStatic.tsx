@@ -17,33 +17,51 @@ export default function MethodeStatic() {
             <p className="text-[168px] font-bold lg:text-[18vw]">1</p>
             <div className="flex w-full flex-col gap-6 md:gap-12 lg:w-1/2">
               <h3 className="text-xl uppercase md:text-3xl">
-                FONDATIONS STRATÉGIQUES : DÉFINIR UNE APPROCHE HOLISTIQUE
+                Phase 1 : Découverte & échange
               </h3>
               <p className="text-neutral-500">
-                Ma méthodologie en tant qu'expert Google Ads est ancrée dans une
-                approche holistique, débutant par une compréhension minutieuse
-                de vos objectifs commerciaux et des nuances de votre marché
-                cible. Cette première phase implique des analyses approfondies
-                pour identifier les opportunités et les défis, établissant ainsi
-                les bases d'une stratégie publicitaire robuste et efficace.
+                Avant de commencer à travailler ensemble, je prends le temps de
+                bien comprendre votre entreprise, ses défis et ses objectifs. Je
+                regarde aussi vos annonces Google actuelles, si vous en avez,
+                pour voir ce qui fonctionne et ce qui peut être amélioré.
+                <br />
+                <br />
+                Cette étape est très importante. Elle me permet de personnaliser
+                ma stratégie pour vos annonces Google, en fonction de ce qui est
+                important pour vous. On discute aussi du budget mensuel pour nos
+                actions, et je vous donne un devis détaillé.
+                <br />
+                <br />
+                En plus de ça, cette étape nous aide à bien nous comprendre et à
+                établir une relation de confiance. C'est vraiment essentiel pour
+                que notre collaboration soit un succès. Et je veux être sûr que
+                je peux vraiment vous aider avant de m'engager. Sinon, je
+                préfère vous diriger vers d'autres solutions qui correspondent
+                mieux à ce que vous recherchez.
               </p>
             </div>
           </div>
           <div className="flex w-full flex-col items-end  justify-around lg:flex-row-reverse lg:items-center">
             <p className="text-[168px] font-bold lg:text-[18vw]">2</p>
             <div className="flex w-full flex-col gap-6 text-right md:gap-12 lg:w-1/2 lg:text-left">
-              <h3 className="text-xl uppercase md:text-3xl">
-                Optimisation Axée sur les Données : Maximiser la Pertinence
-              </h3>
+              <h3 className="text-xl uppercase md:text-3xl">Phase 2 : Setup</h3>
               <p className="text-neutral-500">
-                Une fois la stratégie définie, j'adopte une approche itérative
-                et axée sur les données. Je m'appuie sur une recherche de
-                mots-clés exhaustive et des tests rigoureux pour maximiser la
-                pertinence et la portée de vos annonces. En surveillant de près
-                les performances à l'aide d'indicateurs clés, je suis en mesure
-                d'ajuster rapidement les tactiques et d'optimiser les campagnes
-                en temps réel, garantissant ainsi un retour sur investissement
-                optimal.
+                Après avoir effectué une analyse approfondie de votre situation,
+                nous entamons la phase de mise en place, le Setup. Cette étape,
+                d'une durée moyenne d'une semaine et demie, peut être accélérée
+                en cas d'urgence afin de répondre à vos impératifs dans les
+                délais convenus.
+                <br />
+                <br />
+                Le Setup vise à concrétiser les recommandations formulées
+                pendant notre échange. Cela implique la mise en œuvre de
+                systèmes de suivi pour évaluer les performances de votre site,
+                la création et la configuration des campagnes publicitaires
+                envisagées (telles que celles sur la recherche, les annonces
+                shopping, display, remarketing, etc.), ainsi que, le cas
+                échéant, l'optimisation de votre site ou la création de pages de
+                destination stratégiques, cruciales dans des secteurs
+                fortement concurrentiels.
               </p>
             </div>
           </div>
@@ -51,18 +69,23 @@ export default function MethodeStatic() {
             <p className="text-[168px] font-bold lg:text-[18vw]">3</p>
             <div className="flex w-full flex-col gap-6 md:gap-12 lg:w-1/2">
               <h3 className="text-xl uppercase md:text-3xl">
-                Culture d'Amélioration Continue : Tirer des Leçons Post-Campagne
+                Phase 3 : Suivi et optimisation des campagnes Google Ads
               </h3>
               <p className="text-neutral-500">
-                Enfin, ma méthodologie intègre une culture d'amélioration
-                continue, où l'analyse post-campagne est aussi cruciale que la
-                phase de déploiement initial. À travers des rapports détaillés
-                et des analyses approfondies, je fournis des recommandations
-                personnalisées pour affiner votre stratégie publicitaire et
-                maximiser votre présence en ligne. Mon engagement envers
-                l'excellence opérationnelle et l'innovation constante assure que
-                votre entreprise reste en tête de jeu dans un paysage
-                publicitaire en constante évolution.
+                Après cela, je propose une phase de suivi et d'optimisation des
+                campagnes, qui est cruciale pour améliorer leur performance et
+                garantir les meilleurs résultats. Ce suivi vise à vous aider à
+                atteindre vos objectifs tout en respectant votre budget ou votre
+                coût maximal par conversion.
+                <br />
+                <br />
+                En tant que spécialiste de Google Ads, j'utilise des techniques
+                avancées sur différents leviers pour obtenir des résultats
+                optimaux : je sélectionne les mots-clés les plus pertinents,
+                privilégie les correspondances exactes, crée des audiences
+                personnalisées et utilise le remarketing, met en place des
+                stratégies d'enchères et des tests AB, assure le suivi des
+                conversions et exclut le trafic concurrentiel, et bien plus !
               </p>
             </div>
           </div>
