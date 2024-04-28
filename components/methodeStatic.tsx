@@ -96,7 +96,10 @@ export default function MethodeStatic() {
               className="text-md flex w-full justify-between px-4 sm:w-40 md:justify-center"
               asChild
             >
-              <Link href="/">
+              <Link
+                href="https://calendly.com/alexismarketeur/premier-contact"
+                target="_blank"
+              >
                 Discutons !
                 <ArrowUpRight />
               </Link>

@@ -14,8 +14,9 @@ export default function CTA() {
       >
         <div className="text-center">
           <Link
-            href="/"
-            className="before:from-greenCustom-200 before:to-blueCustom-200 group flex flex-col items-center justify-center space-y-4 text-xl font-semibold text-slate-900 before:absolute before:inset-0 before:-z-10 before:bg-gradient-to-r before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 sm:text-4xl md:text-5xl lg:flex-row lg:space-x-6 lg:space-y-0"
+            target="_blank"
+            href="https://calendly.com/alexismarketeur/premier-contact"
+            className="group flex flex-col items-center justify-center space-y-4 text-xl font-semibold text-slate-900 before:absolute before:inset-0 before:-z-10 before:bg-gradient-to-r before:from-greenCustom-200 before:to-blueCustom-200 before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 sm:text-4xl md:text-5xl lg:flex-row lg:space-x-6 lg:space-y-0"
           >
             <span className=" relative flex items-center justify-center overflow-hidden rounded-full border-4 border-b-8 border-black bg-slate-200 p-0.5">
               <span className="relative whitespace-nowrap">
@@ -24,7 +25,7 @@ export default function CTA() {
                 </span>
 
                 <span
-                  className="before:animate-infinite-scroll after:animate-infinite-scroll absolute inset-0 z-10 inline-flex items-center overflow-hidden whitespace-nowrap rounded-full bg-gradient-to-r from-backgroundSecondary to-backgroundSecondary opacity-0 transition-opacity duration-500 before:bg-gradient-to-r before:from-black before:to-black before:bg-clip-text before:px-2 before:text-transparent before:content-['Travaillons_ensemble'] after:bg-gradient-to-r after:from-black after:to-black after:bg-clip-text after:px-2 after:text-transparent after:content-['Travaillons_ensemble'] group-hover:opacity-100"
+                  className="absolute inset-0 z-10 inline-flex items-center overflow-hidden whitespace-nowrap rounded-full bg-gradient-to-r from-backgroundSecondary to-backgroundSecondary opacity-0 transition-opacity duration-500 before:animate-infinite-scroll before:bg-gradient-to-r before:from-black before:to-black before:bg-clip-text before:px-2 before:text-transparent before:content-['Travaillons_ensemble'] after:animate-infinite-scroll after:bg-gradient-to-r after:from-black after:to-black after:bg-clip-text after:px-2 after:text-transparent after:content-['Travaillons_ensemble'] group-hover:opacity-100"
                   aria-hidden="true"
                 ></span>
               </span>

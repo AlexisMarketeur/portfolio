@@ -24,6 +24,7 @@ export function Scroller() {
             width={1400}
             className="mx-autor h-full rounded-2xl object-contain object-center"
             draggable={false}
+            priority={true}
           />
           <div className="absolute bottom-1 right-1">
             <Modal />

@@ -64,7 +64,10 @@ export default function Hero() {
           size="lg"
           asChild
         >
-          <Link href="https://calendly.com" target="_blank">
+          <Link
+            href="https://calendly.com/alexismarketeur/premier-contact"
+            target="_blank"
+          >
             discutons ! <ArrowUpRight />
           </Link>
         </Button>

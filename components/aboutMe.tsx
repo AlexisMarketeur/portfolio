@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const AboutMe = () => (
   <section
@@ -49,8 +50,13 @@ export const AboutMe = () => (
             </p>
           </div>
           <div className="mb-8 flex min-h-16 flex-row items-center gap-4 md:mt-8 lg:mb-0">
-            <Button size="lg" variant="ctaWhite">
-              Discutons ! <ArrowUpRight />
+            <Button size="lg" variant="ctaWhite" asChild>
+              <Link
+                href="https://calendly.com/alexismarketeur/premier-contact"
+                target="_blank"
+              >
+                Discutons ! <ArrowUpRight />
+              </Link>
             </Button>
           </div>
         </div>
