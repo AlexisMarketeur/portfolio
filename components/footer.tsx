@@ -69,7 +69,12 @@ export const Footer = () => {
             </li>
 
             <li className="ml-8 hidden md:flex">
-              <Button variant="link" size="default" asChild>
+              <Button
+                variant="link"
+                size="default"
+                className="transform rounded-full border-2 border-black bg-backgroundSecondary p-0.5 transition-all duration-300 hover:opacity-50"
+                asChild
+              >
                 <Link href="/" className="flex gap-4">
                   <ArrowUp />
                 </Link>

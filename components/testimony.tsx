@@ -45,10 +45,10 @@ const CARDS = [
     designation: "Directrice des achats & ventes - Bonateks",
     content: (
       <p>
-        Collaborer avec Alexis a transformé{" "}
-        <Highlight>notre campagne Google Ads.</Highlight> Nous avons vu une
-        <Highlight>augmentation de 45%</Highlight> de notre trafic en seulement
-        quelques mois. Exceptionnel!
+        Grâce à Alexis, nous avons atteint un tout{" "}
+        <Highlight>nouveau public cible</Highlight>. Sa stratégie sur Google Ads
+        a augmenté nos ventes de façon remarquable. Un vrai changement de jeu
+        pour nous.
       </p>
     ),
   },
@@ -58,10 +58,10 @@ const CARDS = [
     designation: "Directeur du marketing - Génération Y",
     content: (
       <p>
-        Alexis a une <Highlight>maîtrise incroyable</Highlight> des nuances de
-        Google Ads. Son approche personnalisée a{" "}
-        <Highlight>boosté nos leads de plus de 30%.</Highlight> Hautement
-        recommandé!
+        Collaborer avec Alexis a{" "}
+        <Highlight>transformé notre campagne Google Ads</Highlight>. Nous avons
+        vu une augmentation de <Highlight>45% de notre trafic</Highlight> en
+        seulement quelques mois. Exceptionnel !
       </p>
     ),
   },
@@ -71,11 +71,11 @@ const CARDS = [
     designation: "Chef des opérations - Wingman Campus Fund",
     content: (
       <p>
-        Grâce à Alexis, nous avons atteint un
-        <Highlight>tout nouveau public cible</Highlight> . Sa stratégie sur
-        Google Ads a{" "}
-        <Highlight>augmenté nos ventes de façon remarquable.</Highlight>
-        Un vrai changement de jeu pour nous.
+        Collaborer avec Alexis a été une expérience très positive. En tant que
+        <Highlight>spécialiste Google Ads</Highlight>, il sait comment articuler
+        les défis et les solutions de manière claire et cohérente. Vous pouvez
+        vous attendre à une{" "}
+        <Highlight>collaboration professionnelle et transparente.</Highlight>
       </p>
     ),
   },
@@ -85,10 +85,11 @@ const CARDS = [
     designation: "Responsable des ventes online - SNCF Connect & Tech",
     content: (
       <p>
-        J'ai eu la chance de travailler avec Alexis sur un projet de
-        <Highlight>refonte de site web.</Highlight> Son expertise en SEO et
-        Google Ads a été <Highlight>inestimable.</Highlight> Je le recommande
-        vivement!
+        La force d'Alexis réside dans son{" "}
+        <Highlight>expertise Google</Highlight>, ainsi que dans sa capacité à
+        communiquer de manière claire et efficace. Travailler avec lui est un
+        vrai plaisir, car il valorise{" "}
+        <Highlight>une communication ouverte et honnête</Highlight>.
       </p>
     ),
   },
@@ -98,10 +99,12 @@ const CARDS = [
     designation: "OMNES Education INSEEC MSc - Directeur de l'innovation",
     content: (
       <p>
-        J'ai eu la chance de travailler avec Alexis sur un projet de
-        <Highlight>refonte de site web.</Highlight> Son expertise en SEO et
-        Google Ads a été <Highlight>inestimable.</Highlight> Je le recommande
-        vivement!
+        Alexis est déterminé et passionné dans ses études de marketing digital.
+        Sa capacité à{" "}
+        <Highlight>
+          assimiler les concepts et à les appliquer de manière créative
+        </Highlight>{" "}
+        le destine à une brillante carrière dans ce domaine
       </p>
     ),
   },
