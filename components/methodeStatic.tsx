@@ -34,10 +34,9 @@ export default function MethodeStatic() {
                 <br />
                 En plus de ça, cette étape nous aide à bien nous comprendre et à
                 établir une relation de confiance. C'est vraiment essentiel pour
-                que notre collaboration soit un succès. Et je veux être sûr que
-                je peux vraiment vous aider avant de m'engager. Sinon, je
-                préfère vous diriger vers d'autres solutions qui correspondent
-                mieux à ce que vous recherchez.
+                que notre collaboration soit un succès. Je met un point
+                d’honneur à avoir une communication claire et réactive durant
+                toute la durée de notre collaboration.
               </p>
             </div>
           </div>
