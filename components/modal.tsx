@@ -14,8 +14,11 @@ export function Modal() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="link">
-          <Info />
+        <Button
+          variant="link"
+          className="transform underline transition-all duration-300 hover:opacity-75"
+        >
+          Voir plus
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">

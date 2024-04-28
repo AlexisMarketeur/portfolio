@@ -4,6 +4,7 @@ import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import Image from "next/image";
 import Diplome from "@/public/Diplome.png";
 import { Button } from "./ui/button";
+import Link from "next/link";
 import { Modal } from "./modal";
 
 export function Scroller() {
