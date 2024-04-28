@@ -176,6 +176,30 @@ export function FAQ() {
               avec vous pour obtenir les meilleurs résultats possibles.
             </AccordionContent>
           </AccordionItem>
+          <AccordionItem value="item-8">
+            <AccordionTrigger>
+              Que se passe-t-il après la fin de la campagne ?
+            </AccordionTrigger>
+            <AccordionContent>
+              Après la fin de la campagne, nous pourrons discuter des prochaines
+              étapes en fonction de vos objectifs commerciaux. Cela peut inclure
+              l'analyse des performances de la campagne, la rédaction d'un
+              rapport détaillé sur les résultats obtenus, des dashboard
+              interactif, ainsi que des recommandations pour les actions
+              futures.
+              <br />
+              <br />
+              Nous pouvons également discuter de la possibilité de lancer de
+              nouvelles campagnes, d'apporter des ajustements aux campagnes
+              existantes ou de mettre en œuvre d'autres stratégies de marketing
+              digital pour continuer à atteindre vos objectifs commerciaux.
+              <br />
+              <br />
+              Mon objectif est de vous fournir un service complet et de
+              continuer à vous soutenir dans la croissance de votre entreprise
+              même après la fin de la campagne.
+            </AccordionContent>
+          </AccordionItem>
         </Accordion>
       </article>
     </section>
