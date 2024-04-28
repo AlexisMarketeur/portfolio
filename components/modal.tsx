@@ -35,10 +35,10 @@ export function Modal() {
         </DialogHeader>
         <div className="pt-4 ">
           <div className="no-scrollbar h-80 w-full overflow-y-scroll">
-            <hr />
+            {/* <hr /> */}
             {certifications.map((certification, index) => (
-              <div key={index} className="flex w-full flex-col gap-3 md:gap-1">
-                <div className="flex w-full">
+              <div key={index} className="flex w-full flex-col">
+                <div className="flex w-full py-3 sm:py-1">
                   <Image
                     src={certification.logo}
                     alt={certification.name}
@@ -47,13 +47,28 @@ export function Modal() {
                     className="mt-1"
                     objectFit="none"
                   />
-                  <div className="flex w-full flex-col gap-1 pl-4 pt-3">
-                    <div className="flex justify-between">
-                      <h3 className=" text-sm">{certification.title}</h3>
+                  <div className="flex w-full flex-col justify-center gap-1 pl-4">
+                    <div>
+                      <div className="flex justify-between">
+                        <h3 className=" text-sm">{certification.title}</h3>
+                        <Button
+                          variant="link"
+                          size="default"
+                          className="hidden justify-start text-xs font-normal text-neutral-500 underline hover:opacity-75 md:flex"
+                          asChild
+                        >
+                          <Link href={certification.link} target="_blank">
+                            afficher
+                          </Link>
+                        </Button>
+                      </div>
+                      <p className="text-xs text-neutral-500">
+                        {certification.name} | {certification.date}
+                      </p>
                       <Button
                         variant="link"
                         size="default"
-                        className="hidden justify-start text-xs font-normal text-neutral-500 underline hover:opacity-75 md:flex"
+                        className="justify-start text-xs font-normal text-neutral-500 underline hover:opacity-75 md:hidden"
                         asChild
                       >
                         <Link href={certification.link} target="_blank">
@@ -61,19 +76,6 @@ export function Modal() {
                         </Link>
                       </Button>
                     </div>
-                    <p className="text-xs text-neutral-500">
-                      {certification.name} | {certification.date}
-                    </p>
-                    <Button
-                      variant="link"
-                      size="default"
-                      className="justify-start text-xs font-normal text-neutral-500 underline hover:opacity-75 md:hidden"
-                      asChild
-                    >
-                      <Link href={certification.link} target="_blank">
-                        afficher
-                      </Link>
-                    </Button>
                   </div>
                 </div>
                 <hr />
