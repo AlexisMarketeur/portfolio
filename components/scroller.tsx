@@ -2,7 +2,9 @@
 import React from "react";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import Image from "next/image";
-import Diplome from "@/public/Diplome.webp";
+import Diplome from "@/public/Diplome.png";
+import { Button } from "./ui/button";
+import { Modal } from "./modal";
 
 export function Scroller() {
   return (
@@ -16,14 +18,19 @@ export function Scroller() {
           </>
         }
       >
-        <Image
-          src={Diplome}
-          alt="hero"
-          height={720}
-          width={1400}
-          className="mx-auto h-full rounded-2xl  bg-concrete-50 object-contain object-center"
-          draggable={false}
-        />
+        <div className="relative h-full w-full">
+          <Image
+            src={Diplome}
+            alt="hero"
+            height={720}
+            width={1400}
+            className="mx-autor h-full rounded-2xl object-contain object-center"
+            draggable={false}
+          />
+          <div className="absolute bottom-0 right-0">
+            <Modal />
+          </div>
+        </div>
       </ContainerScroll>
     </section>
   );
