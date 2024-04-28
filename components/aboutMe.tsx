@@ -13,28 +13,37 @@ export const AboutMe = () => (
               A PROPOS DE MOI
             </h1>
             <p className="mb-8 max-w-xl text-left text-sm leading-relaxed tracking-tight text-neutral-500 md:mb-0 md:text-base">
-              Bonjour, je m'appelle Alexis. Je suis passionné par
-              l'accompagnement des entrepreneurs ambitieux pour maximiser leur
-              visibilité en ligne grâce à des stratégies Google Ads efficaces et
-              ciblées. Depuis le début de ma carrière dans le marketing digital
-              en 2017, j'ai aidé plus de 50 entreprises à augmenter leur trafic,
-              améliorer leurs conversions et optimiser leur ROI. Les campagnes
-              que j'ai créées ont touché des milliers de personnes et généré
-              significativement plus de revenus pour mes clients. En plus de mon
-              travail avec ces entreprises, je partage régulièrement des
-              contenus sur les meilleures pratiques SEA sur mes réseaux sociaux.
-              Actuellement, plus de 20 000 personnes suivent mes publications,
-              où je propose des astuces, des conseils et des analyses
-              approfondies sur les tendances du marketing digital. J'ai
-              également rédigé deux guides pratiques sur les stratégies Google
-              Ads et le freelancing en marketing digital, qui ont aidé plus de
-              10 000 professionnels à affiner leurs compétences et à dynamiser
-              leur carrière. Aujourd'hui, je suis particulièrement motivé pour
-              travailler avec des équipes performantes désireuses de tirer
-              profit de mes compétences en publicité en ligne. Je crois que
-              chaque détail compte. Même si ces détails passent inaperçus, ils
-              contribuent grandement à la réussite d'une campagne. La minutie
-              est au cœur de ma démarche professionnelle.
+              Bonjour, je m'appelle Alexis.
+              <br />
+              <br />
+              Mes premiers pas dans l'entrepreneuriat en 2019 m'ont amené à
+              m'intéresser et à me passionner au formidable monde du marketing
+              digital.
+              <br />
+              <br />
+              Depuis le début de ma carrière dans le marketing digital, j'ai
+              aidé de nombreuses entreprises à augmenter leur trafic, améliorer
+              leurs conversions et optimiser leur ROI. Les campagnes que j'ai
+              créées ont touché des milliers de personnes et généré
+              significativement plus de revenus pour mes clients.
+              <br />
+              <br />
+              En plus de mon travail avec ces entreprises, j’ai récemment décidé
+              de partager régulièrement du contenu sur les meilleures pratiques
+              SEA sur mes réseaux sociaux en documentant certaines de mes
+              campagnes.
+              <br />
+              <br />
+              En plus des différentes formations que j’ai pu réaliser en
+              autodidacte, je perfectionne aujourd’hui mon apprentissage en
+              Marketing Digital au sein d’un Master of Science Spécialisé à
+              l’INSEEC.
+              <br />
+              <br />
+              Mon objectif personnel est simple : progresser quotidiennement,
+              accroître mes performances, suivre de près les dernières avancées
+              technologiques et pratiques numériques afin de contribuer au mieux
+              à tous les projets auxquels je participe !
             </p>
           </div>
           <div className="mb-8 flex min-h-16 flex-row items-center gap-4 md:mt-8 lg:mb-0">
@@ -46,23 +55,29 @@ export const AboutMe = () => (
         <div className="grid grid-cols-2 gap-8">
           <div className="aspect-square rounded-md border-2 border-b-4 border-black bg-white">
             <Image
-              src={Glyph}
-              alt="Alexis"
+              src="/Studio.jpg"
+              alt="Photo studio d'Alexis"
               className="h-auto w-full object-cover"
+              width={800}
+              height={800}
             />
           </div>
           <div className="row-span-2 rounded-md border-2 border-b-4 border-black bg-white">
             <Image
-              src={Glyph}
-              alt="Alexis"
+              src="/Remise.jpg"
+              alt="Remise des diplômes d'Alexis"
               className="h-full w-full object-cover"
+              width={800}
+              height={1000}
             />
           </div>
           <div className="aspect-square rounded-md border-2 border-b-4 border-black bg-white">
             <Image
-              src={Glyph}
-              alt="Alexis"
+              src="/Barcelona.jpg"
+              alt="Alexis à Barcelone"
               className="h-auto w-full object-cover"
+              width={800}
+              height={800}
             />
           </div>
         </div>
