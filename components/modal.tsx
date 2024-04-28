@@ -8,32 +8,81 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Info } from "lucide-react";
+import { data } from "@/public/data.json";
+import { ArrowUpRight, GraduationCap } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 export function Modal() {
+  const certifications = data.certifications;
+
   return (
     <Dialog>
       <DialogTrigger asChild>
         <Button
           variant="link"
-          className="transform underline transition-all duration-300 hover:opacity-75"
+          className="flex transform gap-2 transition-all duration-300 hover:opacity-75"
         >
-          Voir plus
+          Voir plus <GraduationCap />
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px]">
+      <DialogContent className="sm:max-w-[600px]">
         <DialogHeader>
-          <DialogTitle>Edit profile</DialogTitle>
+          <DialogTitle>Mes diplômes et certifications</DialogTitle>
           <DialogDescription>
-            Make changes to your profile here. Click save when you're done.
+            {/* Make changes to your profile here. Click save when you're done. */}
           </DialogDescription>
         </DialogHeader>
-        <div className="grid gap-4 py-4">
-          <div className="grid grid-cols-4 items-center gap-4">Hello World</div>
-          <div className="grid grid-cols-4 items-center gap-4">Hello World</div>
+        <div className="pt-4 ">
+          <div className="no-scrollbar h-80 w-full overflow-y-scroll">
+            <hr />
+            {certifications.map((certification, index) => (
+              <div key={index} className="flex w-full flex-col gap-3 md:gap-1">
+                <div className="flex w-full">
+                  <Image
+                    src={certification.logo}
+                    alt={certification.name}
+                    height={60}
+                    width={60}
+                    className="mt-1"
+                    objectFit="none"
+                  />
+                  <div className="flex w-full flex-col gap-1 pl-4 pt-3">
+                    <div className="flex justify-between">
+                      <h3 className=" text-sm">{certification.title}</h3>
+                      <Button
+                        variant="link"
+                        size="default"
+                        className="hidden justify-start text-xs font-normal text-neutral-500 underline hover:opacity-75 md:flex"
+                        asChild
+                      >
+                        <Link href={certification.link} target="_blank">
+                          afficher
+                        </Link>
+                      </Button>
+                    </div>
+                    <p className="text-xs text-neutral-500">
+                      {certification.name} | {certification.date}
+                    </p>
+                    <Button
+                      variant="link"
+                      size="default"
+                      className="justify-start text-xs font-normal text-neutral-500 underline hover:opacity-75 md:hidden"
+                      asChild
+                    >
+                      <Link href={certification.link} target="_blank">
+                        afficher
+                      </Link>
+                    </Button>
+                  </div>
+                </div>
+                <hr />
+              </div>
+            ))}
+          </div>
         </div>
         <DialogFooter>
-          <Button type="submit">Save changes</Button>
+          {/* <p className="text-xs text-neutral-500">Alexis Rodrigues</p> */}
         </DialogFooter>
       </DialogContent>
     </Dialog>

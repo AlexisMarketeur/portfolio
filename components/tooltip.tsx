@@ -5,31 +5,31 @@ const people = [
     id: 1,
     name: "Laëtitia Fournier",
     designation: "Bonateks",
-    image: "/Laetitia.jpg",
+    image: "/Laetitia.webp",
   },
   {
     id: 2,
     name: "Enzo Vergne",
     designation: "Génération Y",
-    image: "/Enzo.jpg",
+    image: "/Enzo.webp",
   },
   {
     id: 3,
     name: "Noé Zaabi",
     designation: "Wingman Campus Fund",
-    image: "/Noe.jpg",
+    image: "/Noe.webp",
   },
   {
     id: 4,
     name: "Benjamin Athea",
     designation: "SNCF Connect & Tech",
-    image: "/Benjamin.jpg",
+    image: "/Benjamin.webp",
   },
   {
     id: 5,
     name: "Édouard Bourbon",
     designation: "INSEEC",
-    image: "/Edouard.jpg",
+    image: "/Edouard.webp",
   },
 ];
 

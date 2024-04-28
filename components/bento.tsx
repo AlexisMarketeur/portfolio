@@ -1,10 +1,10 @@
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
-import image1 from "@/public/Image1.jpg";
-import image2 from "@/public/Image2.jpg";
-import image3 from "@/public/Image3.png";
+import image1 from "@/public/Image1.webp";
+import image2 from "@/public/Image2.webp";
+import image3 from "@/public/Image3.webp";
 import image4 from "@/public/Image4.webp";
-import image5 from "@/public/Image5.png";
-import image6 from "@/public/Image6.png";
+import image5 from "@/public/Image5.webp";
+import image6 from "@/public/Image6.webp";
 import { IconBrandYoutube } from "@tabler/icons-react";
 import { Globe, PieChart, Search } from "lucide-react";
 import Image from "next/image";

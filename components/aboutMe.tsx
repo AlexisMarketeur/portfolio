@@ -57,29 +57,32 @@ export const AboutMe = () => (
         <div className="grid grid-cols-2 gap-8">
           <div className="aspect-square overflow-hidden rounded-md border-2 border-b-4 border-black bg-white">
             <Image
-              src="/Studio.jpg"
+              src="/Studio.webp"
               alt="Photo studio d'Alexis"
               className="h-auto w-full object-cover"
               width={800}
               height={800}
+              priority={true}
             />
           </div>
           <div className="row-span-2 overflow-hidden rounded-md border-2 border-b-4 border-black bg-white">
             <Image
-              src="/Remise.jpg"
+              src="/Remise.webp"
               alt="Remise des diplômes d'Alexis"
               className="h-full w-full object-cover"
               width={800}
               height={1000}
+              priority={true}
             />
           </div>
           <div className="aspect-square overflow-hidden rounded-md border-2 border-b-4 border-black bg-white">
             <Image
-              src="/Barcelona.jpg"
+              src="/Barcelona.webp"
               alt="Alexis à Barcelone"
               className="h-auto w-full object-cover"
               width={800}
               height={800}
+              priority={true}
             />
           </div>
         </div>
