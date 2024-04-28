@@ -55,7 +55,7 @@ const CARDS = [
   {
     id: 1,
     name: "Enzo Vergne",
-    designation: "Chief Marketing Officer - Génération Y",
+    designation: "Directeur du marketing - Génération Y",
     content: (
       <p>
         Alexis a une <Highlight>maîtrise incroyable</Highlight> des nuances de

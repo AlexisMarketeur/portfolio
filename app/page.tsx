@@ -30,8 +30,8 @@ export default function Home() {
         <div>
           <Testimony />
           <AboutMe />
+          <Scroller />
         </div>
-        <Scroller />
         <div className="flex flex-col gap-28 bg-backgroundSecondary py-32 md:gap-80">
           <div className="flex flex-col gap-28 md:gap-48">
             <SoftSkills />

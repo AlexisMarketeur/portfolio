@@ -1,18 +1,20 @@
 import { Button } from "@/components/ui/button";
-import Glyph from "@/public/vector/glyph.svg";
 import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 
 export const AboutMe = () => (
-  <section className="flex w-full justify-center pt-28 md:pt-64" id="about">
+  <section
+    className="flex w-full justify-center bg-black py-28 md:py-64"
+    id="about"
+  >
     <div className="w-11/12 md:w-9/12">
       <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
         <div className="flex h-full flex-col gap-4 ">
           <div className="flex h-full flex-col gap-4">
-            <h1 className="mb-4 text-3xl font-bold uppercase md:mb-12 md:text-7xl">
+            <h1 className="mb-4 text-3xl font-bold uppercase text-neutral-300 md:mb-12 md:text-7xl">
               A PROPOS DE MOI
             </h1>
-            <p className="mb-8 max-w-xl text-left text-sm leading-relaxed tracking-tight text-neutral-500 md:mb-0 md:text-base">
+            <p className="mb-8 max-w-xl text-left text-sm leading-relaxed tracking-tight text-neutral-300 md:mb-0 md:text-base">
               Bonjour, je m'appelle Alexis.
               <br />
               <br />
@@ -47,13 +49,13 @@ export const AboutMe = () => (
             </p>
           </div>
           <div className="mb-8 flex min-h-16 flex-row items-center gap-4 md:mt-8 lg:mb-0">
-            <Button size="lg" variant="cta">
+            <Button size="lg" variant="ctaWhite">
               Discutons ! <ArrowUpRight />
             </Button>
           </div>
         </div>
         <div className="grid grid-cols-2 gap-8">
-          <div className="aspect-square rounded-md border-2 border-b-4 border-black bg-white">
+          <div className="aspect-square overflow-hidden rounded-md border-2 border-b-4 border-black bg-white">
             <Image
               src="/Studio.jpg"
               alt="Photo studio d'Alexis"
@@ -62,7 +64,7 @@ export const AboutMe = () => (
               height={800}
             />
           </div>
-          <div className="row-span-2 rounded-md border-2 border-b-4 border-black bg-white">
+          <div className="row-span-2 overflow-hidden rounded-md border-2 border-b-4 border-black bg-white">
             <Image
               src="/Remise.jpg"
               alt="Remise des diplômes d'Alexis"
@@ -71,7 +73,7 @@ export const AboutMe = () => (
               height={1000}
             />
           </div>
-          <div className="aspect-square rounded-md border-2 border-b-4 border-black bg-white">
+          <div className="aspect-square overflow-hidden rounded-md border-2 border-b-4 border-black bg-white">
             <Image
               src="/Barcelona.jpg"
               alt="Alexis à Barcelone"
