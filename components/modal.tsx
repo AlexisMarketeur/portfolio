@@ -9,7 +9,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { data } from "@/public/data.json";
-import { ArrowUpRight, GraduationCap } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 

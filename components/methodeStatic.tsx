@@ -42,7 +42,7 @@ export default function MethodeStatic() {
           </div>
           <div className="flex w-full flex-col items-end  justify-around lg:flex-row-reverse lg:items-center">
             <p className="text-[168px] font-bold lg:text-[18vw]">2</p>
-            <div className="flex w-full flex-col gap-6 text-right md:gap-12 lg:w-1/2 lg:text-left">
+            <div className="flex w-full flex-col gap-6  text-left md:gap-12 lg:w-1/2">
               <h3 className="text-xl uppercase md:text-3xl">Phase 2 : Setup</h3>
               <p className="text-neutral-500">
                 Après avoir effectué une analyse approfondie de votre situation,
