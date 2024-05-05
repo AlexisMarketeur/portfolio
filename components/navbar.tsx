@@ -30,7 +30,7 @@ const Navbar = () => {
             </Link>
           </Button>
           <Button variant="link" size="default" asChild className="md:mx-8">
-            <Link href="/CV.pdf/" target="_blank">
+            <Link href="/CV.pdf" target="_blank">
               mon CV
             </Link>
           </Button>
