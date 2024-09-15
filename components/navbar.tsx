@@ -29,11 +29,11 @@ const Navbar = () => {
               <Linkedin />
             </Link>
           </Button>
-          <Button variant="link" size="default" asChild className="md:mx-8">
+          {/*<Button variant="link" size="default" asChild className="md:mx-8">
             <Link href="/CV.pdf" target="_blank">
               mon CV
             </Link>
-          </Button>
+          </Button>*/}
         </div>
         <Button variant="cta" className="hidden md:flex" size="lg" asChild>
           <Link

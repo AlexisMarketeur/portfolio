@@ -23,11 +23,11 @@ export const Footer = () => {
           {/* DEV BY MALIK */}
           <ul className="mt-8 flex items-center justify-center gap-6 sm:mt-0 lg:justify-end">
             <li>
-              <Button variant="link" size="default" asChild>
-                <Link href="/CV.pdf" target="_blank">
-                  mon CV
-                </Link>
-              </Button>
+              {/* <Button variant="link" size="default" asChild> */}
+              {/* <Link href="/CV.pdf" target="_blank"> */}
+              {/* mon CV */}
+              {/* </Link> */}
+              {/* </Button> */}
             </li>
             <li>
               <Button variant="link" size="default" asChild>
